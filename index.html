@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Berk Egemen Oğuz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap">
+
+<style>
+/* ── TOKENS ── */
+:root {
+  --bg:       #080C14;
+  --s1:       #0F1623;
+  --s2:       #162030;
+  --s3:       #1B2840;
+  --bd:       #1E2D44;
+  --bd2:      #28405E;
+  --tx:       #DEE6F5;
+  --mu:       #5A6A8A;
+  --fa:       #2A3A55;
+
+  --cy:       #22D3EE;
+  --cy-bg:    rgba(34,211,238,.10);
+  --or:       #FB923C;
+  --or-bg:    rgba(251,146,60,.10);
+  --pu:       #A78BFA;
+  --pu-bg:    rgba(167,139,250,.10);
+  --gn:       #4ADE80;
+  --gn-bg:    rgba(74,222,128,.10);
+  --ye:       #FBBF24;
+  --ye-bg:    rgba(251,191,36,.10);
+  --pi:       #F472B6;
+  --pi-bg:    rgba(244,114,182,.10);
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --bg:  #F2F5FC;
+    --s1:  #FFFFFF;
+    --s2:  #EBF0FB;
+    --s3:  #DDE5F5;
+    --bd:  #C8D6EE;
+    --bd2: #A8BCDA;
+    --tx:  #0D1626;
+    --mu:  #4D6080;
+    --fa:  #BDD0E8;
+    --cy:     #0891B2;
+    --cy-bg:  rgba(8,145,178,.09);
+    --or:     #EA580C;
+    --or-bg:  rgba(234,88,12,.09);
+    --pu:     #7C3AED;
+    --pu-bg:  rgba(124,58,237,.09);
+    --gn:     #16A34A;
+    --gn-bg:  rgba(22,163,74,.09);
+    --ye:     #D97706;
+    --ye-bg:  rgba(217,119,6,.09);
+    --pi:     #DB2777;
+    --pi-bg:  rgba(219,39,119,.09);
+  }
+}
+:root[data-theme="light"] {
+  --bg:  #F2F5FC;
+  --s1:  #FFFFFF;
+  --s2:  #EBF0FB;
+  --s3:  #DDE5F5;
+  --bd:  #C8D6EE;
+  --bd2: #A8BCDA;
+  --tx:  #0D1626;
+  --mu:  #4D6080;
+  --fa:  #BDD0E8;
+  --cy:     #0891B2;
+  --cy-bg:  rgba(8,145,178,.09);
+  --or:     #EA580C;
+  --or-bg:  rgba(234,88,12,.09);
+  --pu:     #7C3AED;
+  --pu-bg:  rgba(124,58,237,.09);
+  --gn:     #16A34A;
+  --gn-bg:  rgba(22,163,74,.09);
+  --ye:     #D97706;
+  --ye-bg:  rgba(217,119,6,.09);
+  --pi:     #DB2777;
+  --pi-bg:  rgba(219,39,119,.09);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: var(--bg);
+  color: var(--tx);
+  font-family: 'Manrope', system-ui, sans-serif;
+  font-weight: 400;
+  line-height: 1.65;
+  padding: 0 1rem 5rem;
+}
+
+.wrap { max-width: 780px; margin: 0 auto; }
+
+/* ── HEADER ── */
+header {
+  padding: 3.5rem 0 2.75rem;
+  border-bottom: 1px solid var(--bd);
+  margin-bottom: 3rem;
+}
+
+.eyebrow {
+  font-family: 'Manrope', sans-serif;
+  font-size: .72rem;
+  color: var(--cy);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  margin-bottom: .9rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+.eyebrow::before {
+  content: '';
+  width: 22px; height: 1px;
+  background: var(--cy);
+  display: inline-block;
+}
+
+h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 800;
+  letter-spacing: -.03em;
+  line-height: 1.1;
+  text-wrap: balance;
+  color: var(--tx);
+  margin-bottom: .5rem;
+}
+
+.cursor {
+  display: inline-block;
+  width: .55ch;
+  height: .9em;
+  background: var(--cy);
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+@keyframes blink { 50% { opacity: 0; } }
+
+.subtitle {
+  font-size: 1rem;
+  color: var(--mu);
+  font-weight: 300;
+  max-width: 52ch;
+  margin-bottom: 1.5rem;
+}
+.subtitle strong { color: var(--tx); font-weight: 500; }
+
+.links {
+  display: flex; flex-wrap: wrap; gap: .5rem;
+}
+.link-chip {
+  font-family: 'Manrope', sans-serif;
+  font-size: .7rem;
+  color: var(--mu);
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 4px;
+  padding: .28rem .6rem;
+  text-decoration: none;
+  display: flex; align-items: center; gap: .35rem;
+  transition: color .15s, border-color .15s;
+}
+.link-chip:hover { color: var(--tx); border-color: var(--bd2); }
+
+/* ── SECTION LABELS ── */
+.section-label {
+  font-family: 'Manrope', sans-serif;
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: var(--mu);
+  margin-bottom: 1.25rem;
+}
+
+section { margin-bottom: 3.25rem; }
+
+/* ── ACTIVE PROJECTS ── */
+.active-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: .9rem;
+}
+
+.active-card {
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 10px;
+  padding: 1.2rem 1.3rem;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+  position: relative;
+  overflow: hidden;
+  transition: border-color .15s, transform .15s;
+}
+.active-card:hover { transform: translateY(-2px); border-color: var(--bd2); }
+
+.active-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 2px;
+}
+.active-card.cy::before  { background: var(--cy); }
+.active-card.ye::before  { background: var(--ye); }
+.active-card.or::before  { background: var(--or); }
+
+.active-badge {
+  font-family: 'Manrope', sans-serif;
+  font-size: .6rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  padding: .15rem .45rem;
+  border-radius: 3px;
+  align-self: flex-start;
+}
+.cy .active-badge  { color: var(--cy);  background: var(--cy-bg); }
+.ye .active-badge  { color: var(--ye);  background: var(--ye-bg); }
+.or .active-badge  { color: var(--or);  background: var(--or-bg); }
+
+.active-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--tx);
+}
+
+.active-desc {
+  font-size: .8rem;
+  color: var(--mu);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.active-lang {
+  font-family: 'Manrope', sans-serif;
+  font-size: .68rem;
+  color: var(--mu);
+  display: flex; align-items: center; gap: .35rem;
+  padding-top: .6rem;
+  border-top: 1px solid var(--bd);
+}
+.dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
+/* ── PAST PROJECTS ── */
+.past-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: .8rem;
+}
+
+.past-card {
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  text-decoration: none;
+  display: flex;
+  gap: .9rem;
+  align-items: flex-start;
+  transition: border-color .15s;
+}
+.past-card:hover { border-color: var(--bd2); }
+
+.past-icon {
+  font-size: 1.2rem;
+  line-height: 1;
+  flex-shrink: 0;
+  margin-top: .1rem;
+}
+
+.past-body { display: flex; flex-direction: column; gap: .3rem; flex: 1; min-width: 0; }
+
+.past-name {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-size: .86rem;
+  font-weight: 700;
+  color: var(--tx);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.past-desc {
+  font-size: .78rem;
+  color: var(--mu);
+  line-height: 1.45;
+}
+
+.past-tags {
+  display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .1rem;
+}
+.tag {
+  font-family: 'Manrope', sans-serif;
+  font-size: .62rem;
+  padding: .1rem .38rem;
+  border-radius: 3px;
+  border: 1px solid var(--bd);
+  color: var(--mu);
+  background: var(--s2);
+}
+
+/* ── SKILLS ── */
+.skills-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.skill-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .4rem;
+  align-items: center;
+}
+.skill-category {
+  font-family: 'Manrope', sans-serif;
+  font-size: .65rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--fa);
+  width: 90px;
+  flex-shrink: 0;
+}
+.chip {
+  font-family: 'Manrope', sans-serif;
+  font-size: .72rem;
+  padding: .22rem .6rem;
+  border-radius: 4px;
+  border: 1px solid;
+}
+.chip.cy  { color: var(--cy); border-color: var(--cy); background: var(--cy-bg); }
+.chip.ye  { color: var(--ye); border-color: var(--ye); background: var(--ye-bg); }
+.chip.or  { color: var(--or); border-color: var(--or); background: var(--or-bg); }
+.chip.gn  { color: var(--gn); border-color: var(--gn); background: var(--gn-bg); }
+.chip.pu  { color: var(--pu); border-color: var(--pu); background: var(--pu-bg); }
+.chip.pi  { color: var(--pi); border-color: var(--pi); background: var(--pi-bg); }
+.chip.mu  { color: var(--mu); border-color: var(--bd); background: var(--s1); }
+
+/* ── CONTRIBUTION GRAPH ── */
+:root {
+  --contrib1: rgba(74,222,128,.22);
+  --contrib2: rgba(74,222,128,.50);
+  --contrib3: rgba(74,222,128,.80);
+  --contrib4: #4ADE80;
+}
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    --contrib1: rgba(22,163,74,.20);
+    --contrib2: rgba(22,163,74,.48);
+    --contrib3: rgba(22,163,74,.78);
+    --contrib4: #16a34a;
+  }
+}
+:root[data-theme="light"] {
+  --contrib1: rgba(22,163,74,.20);
+  --contrib2: rgba(22,163,74,.48);
+  --contrib3: rgba(22,163,74,.78);
+  --contrib4: #16a34a;
+}
+
+.contrib-wrap {
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 12px;
+  overflow: hidden;
+}
+.contrib-header {
+  padding: .85rem 1.3rem .6rem;
+  border-bottom: 1px solid var(--bd);
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.contrib-total {
+  margin-left: auto;
+  font-family: 'Manrope', sans-serif;
+  font-size: .72rem;
+  font-weight: 600;
+  color: var(--mu);
+}
+.contrib-inner {
+  padding: 1rem 1.2rem .6rem;
+  overflow-x: auto;
+  position: relative;
+}
+.contrib-img {
+  display: block;
+  max-width: none;
+  height: auto;
+}
+.contrib-tooltip {
+  position: fixed;
+  background: var(--s3);
+  border: 1px solid var(--bd2);
+  border-radius: 6px;
+  padding: .35rem .7rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: .72rem;
+  font-weight: 500;
+  color: var(--tx);
+  pointer-events: none;
+  white-space: nowrap;
+  z-index: 100;
+  box-shadow: 0 4px 12px rgba(0,0,0,.3);
+}
+.contrib-legend {
+  display: flex;
+  align-items: center;
+  gap: .35rem;
+  padding: .5rem 1.2rem .85rem;
+  justify-content: flex-end;
+}
+.legend-box {
+  width: 11px; height: 11px;
+  border-radius: 2px;
+  flex-shrink: 0;
+}
+.legend-label {
+  font-family: 'Manrope', sans-serif;
+  font-size: .68rem;
+  color: var(--mu);
+}
+
+/* ── FUN: BUBBLE CANVAS ── */
+.bubble-section {
+  background: var(--s1);
+  border: 1px solid var(--bd);
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bubble-header {
+  padding: 1rem 1.3rem .6rem;
+  border-bottom: 1px solid var(--bd);
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+}
+.bubble-title {
+  font-family: 'Manrope', sans-serif;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  color: var(--mu);
+}
+.bubble-dots { display: flex; gap: .3rem; }
+.bubble-dots span {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  display: block;
+}
+
+#bubbleCanvas {
+  display: block;
+  width: 100%;
+  height: 280px;
+  cursor: default;
+}
+
+/* ── FOOTER ── */
+footer {
+  border-top: 1px solid var(--bd);
+  padding-top: 1.5rem;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .5rem;
+  font-family: 'Manrope', sans-serif;
+  font-size: .68rem;
+  color: var(--fa);
+}
+
+@media (max-width: 540px) {
+  .past-grid { grid-template-columns: 1fr; }
+  .active-grid { grid-template-columns: 1fr; }
+  .skill-category { width: auto; }
+}
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+<!-- HEADER -->
+<header>
+  <div class="eyebrow">Computer Engineering · İstanbul Arel Üniversitesi · 4. Sınıf</div>
+  <h1>Berk Egemen Oğuz<span class="cursor"></span></h1>
+  <p class="subtitle">
+    Teorik bilgiyi çalışan sistemlere dönüştüren yazılım geliştirici.
+    Ağ protokollerinden görüntü işlemeye, filo optimizasyonundan fintech araçlarına —
+    merak ettiği alanda proje üretiyor.
+  </p>
+  <div class="links">
+    <a class="link-chip" href="https://github.com/berkegemenoguz" target="_blank" rel="noopener">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.17 6.839 9.49.5.092.682-.217.682-.482 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.464-1.11-1.464-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0112 6.836c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.741 0 .267.18.578.688.48C19.138 20.167 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+      berkegemenoguz
+    </a>
+    <a class="link-chip" href="https://linkedin.com/in/berkegeoguz" target="_blank" rel="noopener">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      in/berkegeoguz
+    </a>
+    <span class="link-chip">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/></svg>
+      berkegemenoguz@hotmail.com
+    </span>
+  </div>
+</header>
+
+<!-- ŞUAN -->
+<section>
+  <div class="section-label">🔴 Şu An İnşa Ediyorum</div>
+  <div class="active-grid">
+
+    <a class="active-card cy" href="https://github.com/berkegemenoguz/ege-balancer" target="_blank" rel="noopener">
+      <span class="active-badge">Aktif · Gün 3/12</span>
+      <div class="active-name">ege-balancer</div>
+      <div class="active-desc">Go ile yazılmış modüler HTTP reverse proxy ve load balancer. Round-robin, least-conn, weighted round-robin algoritmaları; health-check ve circuit breaker.</div>
+      <div class="active-lang"><span class="dot" style="background:#00ADD8"></span>Go · MIT</div>
+    </a>
+
+    <a class="active-card ye" href="https://github.com/berkegemenoguz/TOROS" target="_blank" rel="noopener">
+      <span class="active-badge">Aktif</span>
+      <div class="active-name">TOROS</div>
+      <div class="active-desc">İstanbul için teslimat filo yönetim sistemi. TSP (Branch & Bound), Haversine routing, kapasite planlama, Boğaz geçişi cezalı rota optimizasyonu.</div>
+      <div class="active-lang"><span class="dot" style="background:#3572A5"></span>Python · Flask · React</div>
+    </a>
+
+    <a class="active-card or" href="https://github.com/berkegemenoguz/borsadostu" target="_blank" rel="noopener">
+      <span class="active-badge">Aktif</span>
+      <div class="active-name">borsadostu</div>
+      <div class="active-desc">BIST (Borsa İstanbul) veri analiz aracı. Teknik göstergeler, fon ve kur takibi, grafik üretimi — Flask tabanlı web arayüzü.</div>
+      <div class="active-lang"><span class="dot" style="background:#3572A5"></span>Python · Flask</div>
+    </a>
+
+  </div>
+</section>
+
+<!-- GEÇMİŞ -->
+<section>
+  <div class="section-label">📁 Geçmişte Neler Yaptım</div>
+  <div class="past-grid">
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/WBOCRM" target="_blank" rel="noopener">
+      <div class="past-icon">🧩</div>
+      <div class="past-body">
+        <div class="past-name">WBOCRM</div>
+        <div class="past-desc">Full-stack operasyonel CRM: lead pipeline, JWT auth, RBAC, anlık KPI panosu, GDPR/KVKK veri silme. BDD testler (Cucumber.js).</div>
+        <div class="past-tags">
+          <span class="tag">React 18</span><span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">Jest</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/AS-ADHR" target="_blank" rel="noopener">
+      <div class="past-icon">🚗</div>
+      <div class="past-body">
+        <div class="past-name">AS-ADHR · Sigortam Cepte</div>
+        <div class="past-desc">Anadolu Sigorta için 34 ekranlı akıllı kaza asistanı prototipi. AI hasar tespiti, PDF rapor, QR paylaşım, dijital imza.</div>
+        <div class="past-tags">
+          <span class="tag">HTML/JS</span><span class="tag">jsPDF</span><span class="tag">Mobile-first</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/subscription-tracker" target="_blank" rel="noopener">
+      <div class="past-icon">💳</div>
+      <div class="past-body">
+        <div class="past-name">subscription-tracker</div>
+        <div class="past-desc">Abonelik ve harcama takip uygulaması. 12 aylık takvim görünümü, aylık/yıllık maliyet özeti, Swagger API dökümantasyonu.</div>
+        <div class="past-tags">
+          <span class="tag">Node.js</span><span class="tag">PostgreSQL</span><span class="tag">JWT</span><span class="tag">Swagger</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/flappy-dunk" target="_blank" rel="noopener">
+      <div class="past-icon">🏀</div>
+      <div class="past-body">
+        <div class="past-name">flappy-dunk</div>
+        <div class="past-desc">HTML5 Canvas basketbol arcade oyunu. Gerçekçi fizik, 6 top skini, 3 arka plan, coin & shop sistemi, particle efektleri. Touch + mouse + klavye.</div>
+        <div class="past-tags">
+          <span class="tag">Canvas 2D</span><span class="tag">Vanilla JS</span><span class="tag">ES6 Modules</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/mobile-document-enhancement" target="_blank" rel="noopener">
+      <div class="past-icon">📄</div>
+      <div class="past-body">
+        <div class="past-name">mobile-document-enhancement</div>
+        <div class="past-desc">Mobil kameradan çekilen belgeleri scan kalitesine çeviren 4 aşamalı pipeline. Sauvola vs Gauss thresholding, MSE/PSNR karşılaştırması.</div>
+        <div class="past-tags">
+          <span class="tag">Python</span><span class="tag">OpenCV</span><span class="tag">NumPy</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/DCS_UDP" target="_blank" rel="noopener">
+      <div class="past-icon">🌐</div>
+      <div class="past-body">
+        <div class="past-name">DCS_UDP</div>
+        <div class="past-desc">UDP üzerinde Nagle + Clark algoritması implementasyonu. Silly Window Syndrome çözümü, özel güvenilir protokol katmanı, verimlilik raporlaması.</div>
+        <div class="past-tags">
+          <span class="tag">C++17</span><span class="tag">Winsock2</span><span class="tag">CMake</span><span class="tag">MIT</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/Hotel-Reservation-System" target="_blank" rel="noopener">
+      <div class="past-icon">🏨</div>
+      <div class="past-body">
+        <div class="past-name">Hotel-Reservation-System</div>
+        <div class="past-desc">OOP bitirme projesi: kalıtım, polimorfizm, abstract class. Normal + Suite oda tipleri, 6 ek hizmet, CSV tabanlı veri kalıcılığı.</div>
+        <div class="past-tags">
+          <span class="tag">Java</span><span class="tag">OOP</span><span class="tag">CSV I/O</span>
+        </div>
+      </div>
+    </a>
+
+    <a class="past-card" href="https://github.com/berkegemenoguz/student_info_system" target="_blank" rel="noopener">
+      <div class="past-icon">🎓</div>
+      <div class="past-body">
+        <div class="past-name">student_info_system</div>
+        <div class="past-desc">Swing GUI ile masaüstü öğrenci bilgi sistemi (OBS). Ders yönetimi, not takibi, öğrenci kayıt işlemleri — SQL veritabanı entegrasyonu.</div>
+        <div class="past-tags">
+          <span class="tag">Java</span><span class="tag">Swing</span><span class="tag">SQL</span>
+        </div>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- SKİLLER -->
+<section>
+  <div class="section-label">⚡ Teknoloji Yığını</div>
+  <div class="skills-section">
+    <div class="skill-row">
+      <span class="skill-category">Diller</span>
+      <span class="chip cy">Go</span>
+      <span class="chip ye">Python</span>
+      <span class="chip or">JavaScript</span>
+      <span class="chip gn">Java</span>
+      <span class="chip pu">C++</span>
+      <span class="chip mu">SQL</span>
+      <span class="chip mu">HTML/CSS</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-category">Web</span>
+      <span class="chip or">React 18</span>
+      <span class="chip or">Node.js</span>
+      <span class="chip or">Express</span>
+      <span class="chip ye">Flask</span>
+      <span class="chip mu">Vite</span>
+      <span class="chip mu">Swagger</span>
+      <span class="chip mu">JWT</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-category">Veri / ML</span>
+      <span class="chip ye">OpenCV</span>
+      <span class="chip ye">NumPy</span>
+      <span class="chip ye">Matplotlib</span>
+      <span class="chip cy">PostgreSQL</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-category">Sistem</span>
+      <span class="chip pu">Winsock2</span>
+      <span class="chip pu">CMake</span>
+      <span class="chip cy">Docker</span>
+      <span class="chip cy">Prometheus</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-category">Test</span>
+      <span class="chip mu">Jest</span>
+      <span class="chip mu">Supertest</span>
+      <span class="chip mu">Cucumber.js</span>
+      <span class="chip mu">BDD</span>
+    </div>
+    <div class="skill-row">
+      <span class="skill-category">Öğreniyor</span>
+      <span class="chip pi">Prometheus</span>
+      <span class="chip pi">Veri Analizi</span>
+    </div>
+  </div>
+</section>
+
+<!-- BUBBLE FUN -->
+<!-- CONTRIBUTION GRAPH -->
+<section>
+  <div class="section-label">📅 Katkı Grafiği</div>
+  <div class="contrib-wrap">
+    <div class="contrib-header">
+      <div class="bubble-dots">
+        <span style="background:#F87171"></span>
+        <span style="background:#FBBF24"></span>
+        <span style="background:#4ADE80"></span>
+      </div>
+      <span class="bubble-title">contributions · last 12 months</span>
+      <span class="contrib-total">her gün otomatik güncellenir</span>
+    </div>
+    <div class="contrib-inner">
+      <picture>
+        <source media="(prefers-color-scheme: dark)"
+                srcset="https://raw.githubusercontent.com/berkegemenoguz/berkegemenoguz/output/dist/contrib-dark.svg">
+        <source media="(prefers-color-scheme: light)"
+                srcset="https://raw.githubusercontent.com/berkegemenoguz/berkegemenoguz/output/dist/contrib-light.svg">
+        <img class="contrib-img" alt="Son 12 ayın katkı grafiği"
+             src="https://raw.githubusercontent.com/berkegemenoguz/berkegemenoguz/output/dist/contrib-light.svg">
+      </picture>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-label">🫧 Teknoloji Evreni</div>
+  <div class="bubble-section">
+    <div class="bubble-header">
+      <div class="bubble-dots">
+        <span style="background:#F87171"></span>
+        <span style="background:#FBBF24"></span>
+        <span style="background:#4ADE80"></span>
+      </div>
+      <span class="bubble-title">skill-universe.canvas</span>
+    </div>
+    <canvas id="bubbleCanvas"></canvas>
+  </div>
+</section>
+
+<footer>
+  <span>github.com/berkegemenoguz</span>
+  <span>12 repo · 7 dil · ∞ öğrenme isteği</span>
+</footer>
+
+</div>
+
+<script>
+(function() {
+  const canvas = document.getElementById('bubbleCanvas');
+  const ctx = canvas.getContext('2d');
+
+  // Detect theme
+  function isDark() {
+    const dt = document.documentElement.dataset.theme;
+    if (dt === 'dark') return true;
+    if (dt === 'light') return false;
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+  }
+
+  const BUBBLES_DATA = [
+    // label, color, radius, category
+    { label: 'Go',            col: '#22D3EE', r: 36 },
+    { label: 'Python',        col: '#FBBF24', r: 34 },
+    { label: 'JavaScript',    col: '#FB923C', r: 32 },
+    { label: 'Java',          col: '#4ADE80', r: 28 },
+    { label: 'C++',           col: '#A78BFA', r: 26 },
+    { label: 'SQL',           col: '#94A3B8', r: 20 },
+    { label: 'React',         col: '#FB923C', r: 24 },
+    { label: 'Node.js',       col: '#4ADE80', r: 22 },
+    { label: 'Flask',         col: '#FBBF24', r: 20 },
+    { label: 'PostgreSQL',    col: '#38BDF8', r: 22 },
+    { label: 'OpenCV',        col: '#FBBF24', r: 19 },
+    { label: 'Docker',        col: '#22D3EE', r: 19 },
+    { label: 'CMake',         col: '#A78BFA', r: 16 },
+    { label: 'JWT',           col: '#F472B6', r: 16 },
+    { label: 'Jest',          col: '#94A3B8', r: 15 },
+    { label: 'Canvas 2D',     col: '#FB923C', r: 18 },
+    { label: 'Winsock2',      col: '#A78BFA', r: 17 },
+    { label: 'NumPy',         col: '#FBBF24', r: 16 },
+    { label: 'Prometheus',    col: '#FB923C', r: 16 },
+  ];
+
+  let W, H, dpr, bubbles = [], mouse = { x: -999, y: -999 };
+
+  function setup() {
+    const rect = canvas.parentElement.getBoundingClientRect();
+    W = rect.width;
+    H = canvas.clientHeight || 280;
+    dpr = window.devicePixelRatio || 1;
+    canvas.width  = W * dpr;
+    canvas.height = H * dpr;
+    canvas.style.width  = W + 'px';
+    canvas.style.height = H + 'px';
+    ctx.scale(dpr, dpr);
+    initBubbles();
+  }
+
+  function initBubbles() {
+    bubbles = BUBBLES_DATA.map((d, i) => {
+      const angle = (i / BUBBLES_DATA.length) * Math.PI * 2;
+      const dist  = 60 + Math.random() * (Math.min(W, H) * 0.3);
+      return {
+        ...d,
+        x:  W / 2 + Math.cos(angle) * dist,
+        y:  H / 2 + Math.sin(angle) * dist,
+        vx: (Math.random() - 0.5) * 0.6,
+        vy: (Math.random() - 0.5) * 0.6,
+        hovered: false,
+      };
+    });
+  }
+
+  function hexToRgb(hex) {
+    const n = parseInt(hex.slice(1), 16);
+    return [(n >> 16) & 255, (n >> 8) & 255, n & 255];
+  }
+
+  function draw() {
+    const dark = isDark();
+    const bg   = dark ? '#0F1623' : '#FFFFFF';
+    const txCol= dark ? '#DEE6F5' : '#0D1626';
+    const muCol= dark ? '#2A3A55' : '#C8D6EE';
+
+    ctx.clearRect(0, 0, W, H);
+    ctx.fillStyle = bg;
+    ctx.fillRect(0, 0, W, H);
+
+    // Update physics
+    bubbles.forEach(b => {
+      // gentle drift toward center
+      const cx = W / 2, cy = H / 2;
+      const dx = cx - b.x, dy = cy - b.y;
+      const dist = Math.sqrt(dx * dx + dy * dy) || 1;
+      b.vx += (dx / dist) * 0.012;
+      b.vy += (dy / dist) * 0.012;
+
+      // mouse repulsion
+      const mdx = b.x - mouse.x, mdy = b.y - mouse.y;
+      const md  = Math.sqrt(mdx * mdx + mdy * mdy) || 1;
+      if (md < 100) {
+        b.vx += (mdx / md) * (100 - md) * 0.04;
+        b.vy += (mdy / md) * (100 - md) * 0.04;
+      }
+
+      // damping
+      b.vx *= 0.97;
+      b.vy *= 0.97;
+
+      // bubble-bubble collision (simplified)
+      bubbles.forEach(o => {
+        if (o === b) return;
+        const bx = b.x - o.x, by = b.y - o.y;
+        const bd = Math.sqrt(bx * bx + by * by) || 1;
+        const minD = b.r + o.r + 4;
+        if (bd < minD) {
+          const f = (minD - bd) / bd * 0.05;
+          b.vx += bx * f; b.vy += by * f;
+          o.vx -= bx * f; o.vy -= by * f;
+        }
+      });
+
+      b.x += b.vx;
+      b.y += b.vy;
+
+      // wall bounce
+      const pad = b.r + 4;
+      if (b.x < pad)     { b.x = pad;     b.vx = Math.abs(b.vx) * 0.6; }
+      if (b.x > W - pad) { b.x = W - pad; b.vx = -Math.abs(b.vx) * 0.6; }
+      if (b.y < pad)     { b.y = pad;     b.vy = Math.abs(b.vy) * 0.6; }
+      if (b.y > H - pad) { b.y = H - pad; b.vy = -Math.abs(b.vy) * 0.6; }
+
+      // hover check
+      const hd = Math.sqrt((b.x - mouse.x) ** 2 + (b.y - mouse.y) ** 2);
+      b.hovered = hd < b.r + 8;
+    });
+
+    // Draw connections for hovering
+    bubbles.forEach(b => {
+      if (!b.hovered) return;
+      bubbles.forEach(o => {
+        if (o === b) return;
+        const d = Math.sqrt((b.x-o.x)**2+(b.y-o.y)**2);
+        if (d < 150) {
+          const [r,g,bl] = hexToRgb(b.col);
+          ctx.beginPath();
+          ctx.moveTo(b.x, b.y);
+          ctx.lineTo(o.x, o.y);
+          ctx.strokeStyle = `rgba(${r},${g},${bl},${(1-d/150)*0.25})`;
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+      });
+    });
+
+    // Draw bubbles
+    bubbles.forEach(b => {
+      const scale = b.hovered ? 1.12 : 1;
+      const R = b.r * scale;
+      const [r, g, bl] = hexToRgb(b.col);
+
+      // glow
+      if (b.hovered) {
+        const glow = ctx.createRadialGradient(b.x, b.y, R * 0.5, b.x, b.y, R * 1.6);
+        glow.addColorStop(0, `rgba(${r},${g},${bl},0.18)`);
+        glow.addColorStop(1, `rgba(${r},${g},${bl},0)`);
+        ctx.beginPath();
+        ctx.arc(b.x, b.y, R * 1.6, 0, Math.PI * 2);
+        ctx.fillStyle = glow;
+        ctx.fill();
+      }
+
+      // bubble fill
+      const grad = ctx.createRadialGradient(b.x - R * 0.25, b.y - R * 0.25, R * 0.1, b.x, b.y, R);
+      grad.addColorStop(0, `rgba(${r},${g},${bl},0.22)`);
+      grad.addColorStop(1, `rgba(${r},${g},${bl},0.07)`);
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, R, 0, Math.PI * 2);
+      ctx.fillStyle = grad;
+      ctx.fill();
+
+      // border
+      ctx.beginPath();
+      ctx.arc(b.x, b.y, R, 0, Math.PI * 2);
+      ctx.strokeStyle = `rgba(${r},${g},${bl},${b.hovered ? 0.9 : 0.5})`;
+      ctx.lineWidth = b.hovered ? 1.5 : 1;
+      ctx.stroke();
+
+      // label
+      const fontSize = Math.max(9, Math.min(13, R * 0.45));
+      ctx.font = `700 ${fontSize}px 'Manrope', sans-serif`;
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = b.hovered ? b.col : txCol;
+      ctx.fillText(b.label, b.x, b.y);
+    });
+
+    requestAnimationFrame(draw);
+  }
+
+  canvas.addEventListener('mousemove', e => {
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = e.clientX - rect.left;
+    mouse.y = e.clientY - rect.top;
+  });
+  canvas.addEventListener('mouseleave', () => { mouse.x = -999; mouse.y = -999; });
+
+  // Touch support
+  canvas.addEventListener('touchmove', e => {
+    e.preventDefault();
+    const rect = canvas.getBoundingClientRect();
+    mouse.x = e.touches[0].clientX - rect.left;
+    mouse.y = e.touches[0].clientY - rect.top;
+  }, { passive: false });
+  canvas.addEventListener('touchend', () => { mouse.x = -999; mouse.y = -999; });
+
+  setup();
+  window.addEventListener('resize', setup);
+  draw();
+})();
+
+</script>
+
+</body>
+</html>
