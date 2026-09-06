@@ -1,0 +1,488 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="833" height="181" viewBox="0 0 833 181" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif">
+<style>.bg{fill:#ffffff}.lbl{fill:#57606a;font-size:9px;font-weight:500}.cell{rx:2;ry:2}.hl{fill:#0891b2;fill-opacity:.34;stroke:#0891b2;stroke-width:1.6;rx:2;ry:2;opacity:0}.sh{fill:rgba(15,23,42,.20)}.ink{fill:#12203a}.an{stroke:#12203a;stroke-width:1.4;stroke-linecap:round;fill:none}.eye{fill:#4ade80}.dot{fill:#4ade80}@keyframes hop{0.000%{transform:translate(126px,111px);animation-timing-function:ease-out}0.568%{transform:translate(178.5px,102.0px);animation-timing-function:ease-in}1.136%{transform:translate(231px,111px);animation-timing-function:ease-out}1.705%{transform:translate(231.0px,98.7px);animation-timing-function:ease-in}2.273%{transform:translate(231px,126px);animation-timing-function:ease-out}2.841%{transform:translate(231.0px,110.4px);animation-timing-function:ease-in}3.409%{transform:translate(231px,156px);animation-timing-function:ease-out}3.977%{transform:translate(238.5px,147.0px);animation-timing-function:ease-in}4.545%{transform:translate(246px,156px);animation-timing-function:ease-out}5.114%{transform:translate(246.0px,128.7px);animation-timing-function:ease-in}5.682%{transform:translate(246px,141px);animation-timing-function:ease-out}6.250%{transform:translate(246.0px,77.1px);animation-timing-function:ease-in}6.818%{transform:translate(246px,96px);animation-timing-function:ease-out}7.386%{transform:translate(246.0px,68.7px);animation-timing-function:ease-in}7.955%{transform:translate(246px,81px);animation-timing-function:ease-out}8.523%{transform:translate(253.5px,72.0px);animation-timing-function:ease-in}9.091%{transform:translate(261px,81px);animation-timing-function:ease-out}9.659%{transform:translate(261.0px,65.4px);animation-timing-function:ease-in}10.227%{transform:translate(261px,111px);animation-timing-function:ease-out}10.795%{transform:translate(261.0px,95.4px);animation-timing-function:ease-in}11.364%{transform:translate(261px,141px);animation-timing-function:ease-out}11.932%{transform:translate(268.5px,128.7px);animation-timing-function:ease-in}12.500%{transform:translate(276px,156px);animation-timing-function:ease-out}13.068%{transform:translate(276.0px,128.7px);animation-timing-function:ease-in}13.636%{transform:translate(276px,141px);animation-timing-function:ease-out}14.205%{transform:translate(276.0px,113.7px);animation-timing-function:ease-in}14.773%{transform:translate(276px,126px);animation-timing-function:ease-out}15.341%{transform:translate(276.0px,98.7px);animation-timing-function:ease-in}15.909%{transform:translate(276px,111px);animation-timing-function:ease-out}16.477%{transform:translate(276.0px,83.7px);animation-timing-function:ease-in}17.045%{transform:translate(276px,96px);animation-timing-function:ease-out}17.614%{transform:translate(276.0px,68.7px);animation-timing-function:ease-in}18.182%{transform:translate(276px,81px);animation-timing-function:ease-out}18.750%{transform:translate(276.0px,53.7px);animation-timing-function:ease-in}19.318%{transform:translate(276px,66px);animation-timing-function:ease-out}19.886%{transform:translate(283.5px,50.4px);animation-timing-function:ease-in}20.455%{transform:translate(291px,96px);animation-timing-function:ease-out}21.023%{transform:translate(306.0px,68.7px);animation-timing-function:ease-in}21.591%{transform:translate(321px,81px);animation-timing-function:ease-out}22.159%{transform:translate(321.0px,62.1px);animation-timing-function:ease-in}22.727%{transform:translate(321px,126px);animation-timing-function:ease-out}23.295%{transform:translate(321.0px,110.4px);animation-timing-function:ease-in}23.864%{transform:translate(321px,156px);animation-timing-function:ease-out}24.432%{transform:translate(358.5px,147.0px);animation-timing-function:ease-in}25.000%{transform:translate(396px,156px);animation-timing-function:ease-out}25.568%{transform:translate(403.5px,37.2px);animation-timing-function:ease-in}26.136%{transform:translate(411px,66px);animation-timing-function:ease-out}26.705%{transform:translate(411.0px,50.4px);animation-timing-function:ease-in}27.273%{transform:translate(411px,96px);animation-timing-function:ease-out}27.841%{transform:translate(411.0px,83.7px);animation-timing-function:ease-in}28.409%{transform:translate(411px,111px);animation-timing-function:ease-out}28.977%{transform:translate(411.0px,98.7px);animation-timing-function:ease-in}29.545%{transform:translate(411px,126px);animation-timing-function:ease-out}30.114%{transform:translate(411.0px,110.4px);animation-timing-function:ease-in}30.682%{transform:translate(411px,156px);animation-timing-function:ease-out}31.250%{transform:translate(418.5px,110.4px);animation-timing-function:ease-in}31.818%{transform:translate(426px,126px);animation-timing-function:ease-out}32.386%{transform:translate(426.0px,62.1px);animation-timing-function:ease-in}32.955%{transform:translate(426px,81px);animation-timing-function:ease-out}33.523%{transform:translate(433.5px,53.7px);animation-timing-function:ease-in}34.091%{transform:translate(441px,66px);animation-timing-function:ease-out}34.659%{transform:translate(448.5px,43.8px);animation-timing-function:ease-in}35.227%{transform:translate(456px,126px);animation-timing-function:ease-out}35.795%{transform:translate(493.5px,62.1px);animation-timing-function:ease-in}36.364%{transform:translate(531px,81px);animation-timing-function:ease-out}36.932%{transform:translate(531.0px,68.7px);animation-timing-function:ease-in}37.500%{transform:translate(531px,96px);animation-timing-function:ease-out}38.068%{transform:translate(531.0px,83.7px);animation-timing-function:ease-in}38.636%{transform:translate(531px,111px);animation-timing-function:ease-out}39.205%{transform:translate(531.0px,98.7px);animation-timing-function:ease-in}39.773%{transform:translate(531px,126px);animation-timing-function:ease-out}40.341%{transform:translate(531.0px,113.7px);animation-timing-function:ease-in}40.909%{transform:translate(531px,141px);animation-timing-function:ease-out}41.477%{transform:translate(538.5px,128.7px);animation-timing-function:ease-in}42.045%{transform:translate(546px,156px);animation-timing-function:ease-out}42.614%{transform:translate(546.0px,128.7px);animation-timing-function:ease-in}43.182%{transform:translate(546px,141px);animation-timing-function:ease-out}43.750%{transform:translate(546.0px,113.7px);animation-timing-function:ease-in}44.318%{transform:translate(546px,126px);animation-timing-function:ease-out}44.886%{transform:translate(546.0px,80.4px);animation-timing-function:ease-in}45.455%{transform:translate(546px,96px);animation-timing-function:ease-out}46.023%{transform:translate(546.0px,68.7px);animation-timing-function:ease-in}46.591%{transform:translate(546px,81px);animation-timing-function:ease-out}47.159%{transform:translate(546.0px,53.7px);animation-timing-function:ease-in}47.727%{transform:translate(546px,66px);animation-timing-function:ease-out}48.295%{transform:translate(553.5px,57.0px);animation-timing-function:ease-in}48.864%{transform:translate(561px,66px);animation-timing-function:ease-out}49.432%{transform:translate(561.0px,50.4px);animation-timing-function:ease-in}50.000%{transform:translate(561px,96px);animation-timing-function:ease-out}50.568%{transform:translate(561.0px,80.4px);animation-timing-function:ease-in}51.136%{transform:translate(561px,126px);animation-timing-function:ease-out}51.705%{transform:translate(561.0px,113.7px);animation-timing-function:ease-in}52.273%{transform:translate(561px,141px);animation-timing-function:ease-out}52.841%{transform:translate(568.5px,95.4px);animation-timing-function:ease-in}53.409%{transform:translate(576px,111px);animation-timing-function:ease-out}53.977%{transform:translate(591.0px,47.1px);animation-timing-function:ease-in}54.545%{transform:translate(606px,66px);animation-timing-function:ease-out}55.114%{transform:translate(643.5px,53.7px);animation-timing-function:ease-in}55.682%{transform:translate(681px,81px);animation-timing-function:ease-out}56.250%{transform:translate(681.0px,68.7px);animation-timing-function:ease-in}56.818%{transform:translate(681px,96px);animation-timing-function:ease-out}57.386%{transform:translate(681.0px,83.7px);animation-timing-function:ease-in}57.955%{transform:translate(681px,111px);animation-timing-function:ease-out}58.523%{transform:translate(681.0px,98.7px);animation-timing-function:ease-in}59.091%{transform:translate(681px,126px);animation-timing-function:ease-out}59.659%{transform:translate(681.0px,113.7px);animation-timing-function:ease-in}60.227%{transform:translate(681px,141px);animation-timing-function:ease-out}60.795%{transform:translate(688.5px,132.0px);animation-timing-function:ease-in}61.364%{transform:translate(696px,141px);animation-timing-function:ease-out}61.932%{transform:translate(696.0px,113.7px);animation-timing-function:ease-in}62.500%{transform:translate(696px,126px);animation-timing-function:ease-out}63.068%{transform:translate(696.0px,80.4px);animation-timing-function:ease-in}63.636%{transform:translate(696px,96px);animation-timing-function:ease-out}64.205%{transform:translate(696.0px,68.7px);animation-timing-function:ease-in}64.773%{transform:translate(696px,81px);animation-timing-function:ease-out}65.341%{transform:translate(703.5px,72.0px);animation-timing-function:ease-in}65.909%{transform:translate(711px,81px);animation-timing-function:ease-out}66.477%{transform:translate(711.0px,65.4px);animation-timing-function:ease-in}67.045%{transform:translate(711px,111px);animation-timing-function:ease-out}67.614%{transform:translate(711.0px,98.7px);animation-timing-function:ease-in}68.182%{transform:translate(711px,126px);animation-timing-function:ease-out}68.750%{transform:translate(711.0px,113.7px);animation-timing-function:ease-in}69.318%{transform:translate(711px,141px);animation-timing-function:ease-out}69.886%{transform:translate(718.5px,128.7px);animation-timing-function:ease-in}70.455%{transform:translate(726px,156px);animation-timing-function:ease-out}71.023%{transform:translate(726.0px,73.8px);animation-timing-function:ease-in}71.591%{transform:translate(726px,96px);animation-timing-function:ease-out}72.159%{transform:translate(726.0px,50.4px);animation-timing-function:ease-in}72.727%{transform:translate(726px,66px);animation-timing-function:ease-out}73.295%{transform:translate(733.5px,40.5px);animation-timing-function:ease-in}73.864%{transform:translate(741px,141px);animation-timing-function:ease-out}74.432%{transform:translate(741.0px,128.7px);animation-timing-function:ease-in}75.000%{transform:translate(741px,156px);animation-timing-function:ease-out}75.568%{transform:translate(748.5px,128.7px);animation-timing-function:ease-in}76.136%{transform:translate(756px,141px);animation-timing-function:ease-out}76.705%{transform:translate(756.0px,113.7px);animation-timing-function:ease-in}77.273%{transform:translate(756px,126px);animation-timing-function:ease-out}77.841%{transform:translate(756.0px,98.7px);animation-timing-function:ease-in}78.409%{transform:translate(756px,111px);animation-timing-function:ease-out}78.977%{transform:translate(756.0px,83.7px);animation-timing-function:ease-in}79.545%{transform:translate(756px,96px);animation-timing-function:ease-out}80.114%{transform:translate(756.0px,68.7px);animation-timing-function:ease-in}80.682%{transform:translate(756px,81px);animation-timing-function:ease-out}81.250%{transform:translate(756.0px,53.7px);animation-timing-function:ease-in}81.818%{transform:translate(756px,66px);animation-timing-function:ease-out}82.386%{transform:translate(763.5px,57.0px);animation-timing-function:ease-in}82.955%{transform:translate(771px,66px);animation-timing-function:ease-out}83.523%{transform:translate(771.0px,53.7px);animation-timing-function:ease-in}84.091%{transform:translate(771px,81px);animation-timing-function:ease-out}84.659%{transform:translate(771.0px,68.7px);animation-timing-function:ease-in}85.227%{transform:translate(771px,96px);animation-timing-function:ease-out}85.795%{transform:translate(771.0px,83.7px);animation-timing-function:ease-in}86.364%{transform:translate(771px,111px);animation-timing-function:ease-out}86.932%{transform:translate(771.0px,98.7px);animation-timing-function:ease-in}87.500%{transform:translate(771px,126px);animation-timing-function:ease-out}88.068%{transform:translate(771.0px,113.7px);animation-timing-function:ease-in}88.636%{transform:translate(771px,141px);animation-timing-function:ease-out}89.205%{transform:translate(778.5px,132.0px);animation-timing-function:ease-in}89.773%{transform:translate(786px,141px);animation-timing-function:ease-out}90.341%{transform:translate(786.0px,113.7px);animation-timing-function:ease-in}90.909%{transform:translate(786px,126px);animation-timing-function:ease-out}91.477%{transform:translate(786.0px,98.7px);animation-timing-function:ease-in}92.045%{transform:translate(786px,111px);animation-timing-function:ease-out}92.614%{transform:translate(786.0px,83.7px);animation-timing-function:ease-in}93.182%{transform:translate(786px,96px);animation-timing-function:ease-out}93.750%{transform:translate(786.0px,68.7px);animation-timing-function:ease-in}94.318%{transform:translate(786px,81px);animation-timing-function:ease-out}94.886%{transform:translate(793.5px,72.0px);animation-timing-function:ease-in}95.455%{transform:translate(801px,81px);animation-timing-function:ease-out}96.023%{transform:translate(801.0px,68.7px);animation-timing-function:ease-in}96.591%{transform:translate(801px,96px);animation-timing-function:ease-out}97.159%{transform:translate(801.0px,83.7px);animation-timing-function:ease-in}97.727%{transform:translate(801px,111px);animation-timing-function:ease-out}98.295%{transform:translate(801.0px,98.7px);animation-timing-function:ease-in}98.864%{transform:translate(801px,126px);animation-timing-function:ease-out}99.432%{transform:translate(801.0px,113.7px);animation-timing-function:ease-in}100%{transform:translate(801px,141px)}}.char{animation:hop 12s linear infinite}@keyframes l0{0%,0%{opacity:0}0.05%,100%{opacity:1}}.l0{animation:l0 12s linear infinite}@keyframes l1{0%,1%{opacity:0}1.05%,100%{opacity:1}}.l1{animation:l1 12s linear infinite}@keyframes l2_5{0%,2.5%{opacity:0}2.55%,100%{opacity:1}}.l2_5{animation:l2_5 12s linear infinite}@keyframes l3_5{0%,3.5%{opacity:0}3.55%,100%{opacity:1}}.l3_5{animation:l3_5 12s linear infinite}@keyframes l4_5{0%,4.5%{opacity:0}4.55%,100%{opacity:1}}.l4_5{animation:l4_5 12s linear infinite}@keyframes l5_5{0%,5.5%{opacity:0}5.55%,100%{opacity:1}}.l5_5{animation:l5_5 12s linear infinite}@keyframes l7{0%,7%{opacity:0}7.05%,100%{opacity:1}}.l7{animation:l7 12s linear infinite}@keyframes l8{0%,8%{opacity:0}8.05%,100%{opacity:1}}.l8{animation:l8 12s linear infinite}@keyframes l9{0%,9%{opacity:0}9.05%,100%{opacity:1}}.l9{animation:l9 12s linear infinite}@keyframes l10{0%,10%{opacity:0}10.05%,100%{opacity:1}}.l10{animation:l10 12s linear infinite}@keyframes l11_5{0%,11.5%{opacity:0}11.55%,100%{opacity:1}}.l11_5{animation:l11_5 12s linear infinite}@keyframes l12_5{0%,12.5%{opacity:0}12.55%,100%{opacity:1}}.l12_5{animation:l12_5 12s linear infinite}@keyframes l13_5{0%,13.5%{opacity:0}13.55%,100%{opacity:1}}.l13_5{animation:l13_5 12s linear infinite}@keyframes l15{0%,15%{opacity:0}15.05%,100%{opacity:1}}.l15{animation:l15 12s linear infinite}@keyframes l16{0%,16%{opacity:0}16.05%,100%{opacity:1}}.l16{animation:l16 12s linear infinite}@keyframes l17{0%,17%{opacity:0}17.05%,100%{opacity:1}}.l17{animation:l17 12s linear infinite}@keyframes l18{0%,18%{opacity:0}18.05%,100%{opacity:1}}.l18{animation:l18 12s linear infinite}@keyframes l19_5{0%,19.5%{opacity:0}19.55%,100%{opacity:1}}.l19_5{animation:l19_5 12s linear infinite}@keyframes l20_5{0%,20.5%{opacity:0}20.55%,100%{opacity:1}}.l20_5{animation:l20_5 12s linear infinite}@keyframes l21_5{0%,21.5%{opacity:0}21.55%,100%{opacity:1}}.l21_5{animation:l21_5 12s linear infinite}@keyframes l22_5{0%,22.5%{opacity:0}22.55%,100%{opacity:1}}.l22_5{animation:l22_5 12s linear infinite}@keyframes l24{0%,24%{opacity:0}24.05%,100%{opacity:1}}.l24{animation:l24 12s linear infinite}@keyframes l25{0%,25%{opacity:0}25.05%,100%{opacity:1}}.l25{animation:l25 12s linear infinite}@keyframes l26{0%,26%{opacity:0}26.05%,100%{opacity:1}}.l26{animation:l26 12s linear infinite}@keyframes l27_5{0%,27.5%{opacity:0}27.55%,100%{opacity:1}}.l27_5{animation:l27_5 12s linear infinite}@keyframes l28_5{0%,28.5%{opacity:0}28.55%,100%{opacity:1}}.l28_5{animation:l28_5 12s linear infinite}@keyframes l29_5{0%,29.5%{opacity:0}29.55%,100%{opacity:1}}.l29_5{animation:l29_5 12s linear infinite}@keyframes l30_5{0%,30.5%{opacity:0}30.55%,100%{opacity:1}}.l30_5{animation:l30_5 12s linear infinite}@keyframes l32{0%,32%{opacity:0}32.05%,100%{opacity:1}}.l32{animation:l32 12s linear infinite}@keyframes l33{0%,33%{opacity:0}33.05%,100%{opacity:1}}.l33{animation:l33 12s linear infinite}@keyframes l34{0%,34%{opacity:0}34.05%,100%{opacity:1}}.l34{animation:l34 12s linear infinite}@keyframes l35{0%,35%{opacity:0}35.05%,100%{opacity:1}}.l35{animation:l35 12s linear infinite}@keyframes l36_5{0%,36.5%{opacity:0}36.55%,100%{opacity:1}}.l36_5{animation:l36_5 12s linear infinite}@keyframes l37_5{0%,37.5%{opacity:0}37.55%,100%{opacity:1}}.l37_5{animation:l37_5 12s linear infinite}@keyframes l38_5{0%,38.5%{opacity:0}38.55%,100%{opacity:1}}.l38_5{animation:l38_5 12s linear infinite}@keyframes l40{0%,40%{opacity:0}40.05%,100%{opacity:1}}.l40{animation:l40 12s linear infinite}@keyframes l41{0%,41%{opacity:0}41.05%,100%{opacity:1}}.l41{animation:l41 12s linear infinite}@keyframes l42{0%,42%{opacity:0}42.05%,100%{opacity:1}}.l42{animation:l42 12s linear infinite}@keyframes l43{0%,43%{opacity:0}43.05%,100%{opacity:1}}.l43{animation:l43 12s linear infinite}@keyframes l44_5{0%,44.5%{opacity:0}44.55%,100%{opacity:1}}.l44_5{animation:l44_5 12s linear infinite}@keyframes l45_5{0%,45.5%{opacity:0}45.55%,100%{opacity:1}}.l45_5{animation:l45_5 12s linear infinite}@keyframes l46_5{0%,46.5%{opacity:0}46.55%,100%{opacity:1}}.l46_5{animation:l46_5 12s linear infinite}@keyframes l47_5{0%,47.5%{opacity:0}47.55%,100%{opacity:1}}.l47_5{animation:l47_5 12s linear infinite}@keyframes l49{0%,49%{opacity:0}49.05%,100%{opacity:1}}.l49{animation:l49 12s linear infinite}@keyframes l50{0%,50%{opacity:0}50.05%,100%{opacity:1}}.l50{animation:l50 12s linear infinite}@keyframes l51{0%,51%{opacity:0}51.05%,100%{opacity:1}}.l51{animation:l51 12s linear infinite}@keyframes l52_5{0%,52.5%{opacity:0}52.55%,100%{opacity:1}}.l52_5{animation:l52_5 12s linear infinite}@keyframes l53_5{0%,53.5%{opacity:0}53.55%,100%{opacity:1}}.l53_5{animation:l53_5 12s linear infinite}@keyframes l54_5{0%,54.5%{opacity:0}54.55%,100%{opacity:1}}.l54_5{animation:l54_5 12s linear infinite}@keyframes l55_5{0%,55.5%{opacity:0}55.55%,100%{opacity:1}}.l55_5{animation:l55_5 12s linear infinite}@keyframes l57{0%,57%{opacity:0}57.05%,100%{opacity:1}}.l57{animation:l57 12s linear infinite}@keyframes l58{0%,58%{opacity:0}58.05%,100%{opacity:1}}.l58{animation:l58 12s linear infinite}@keyframes l59{0%,59%{opacity:0}59.05%,100%{opacity:1}}.l59{animation:l59 12s linear infinite}@keyframes l60{0%,60%{opacity:0}60.05%,100%{opacity:1}}.l60{animation:l60 12s linear infinite}@keyframes l61_5{0%,61.5%{opacity:0}61.55%,100%{opacity:1}}.l61_5{animation:l61_5 12s linear infinite}@keyframes l62_5{0%,62.5%{opacity:0}62.55%,100%{opacity:1}}.l62_5{animation:l62_5 12s linear infinite}@keyframes l63_5{0%,63.5%{opacity:0}63.55%,100%{opacity:1}}.l63_5{animation:l63_5 12s linear infinite}@keyframes l65{0%,65%{opacity:0}65.05%,100%{opacity:1}}.l65{animation:l65 12s linear infinite}@keyframes l66{0%,66%{opacity:0}66.05%,100%{opacity:1}}.l66{animation:l66 12s linear infinite}@keyframes l67{0%,67%{opacity:0}67.05%,100%{opacity:1}}.l67{animation:l67 12s linear infinite}@keyframes l68{0%,68%{opacity:0}68.05%,100%{opacity:1}}.l68{animation:l68 12s linear infinite}@keyframes l69_5{0%,69.5%{opacity:0}69.55%,100%{opacity:1}}.l69_5{animation:l69_5 12s linear infinite}@keyframes l70_5{0%,70.5%{opacity:0}70.55%,100%{opacity:1}}.l70_5{animation:l70_5 12s linear infinite}@keyframes l71_5{0%,71.5%{opacity:0}71.55%,100%{opacity:1}}.l71_5{animation:l71_5 12s linear infinite}@keyframes l72_5{0%,72.5%{opacity:0}72.55%,100%{opacity:1}}.l72_5{animation:l72_5 12s linear infinite}@keyframes l74{0%,74%{opacity:0}74.05%,100%{opacity:1}}.l74{animation:l74 12s linear infinite}@keyframes l75{0%,75%{opacity:0}75.05%,100%{opacity:1}}.l75{animation:l75 12s linear infinite}@keyframes l76{0%,76%{opacity:0}76.05%,100%{opacity:1}}.l76{animation:l76 12s linear infinite}@keyframes l77_5{0%,77.5%{opacity:0}77.55%,100%{opacity:1}}.l77_5{animation:l77_5 12s linear infinite}@keyframes l78_5{0%,78.5%{opacity:0}78.55%,100%{opacity:1}}.l78_5{animation:l78_5 12s linear infinite}@keyframes l79_5{0%,79.5%{opacity:0}79.55%,100%{opacity:1}}.l79_5{animation:l79_5 12s linear infinite}@keyframes l80_5{0%,80.5%{opacity:0}80.55%,100%{opacity:1}}.l80_5{animation:l80_5 12s linear infinite}@keyframes l82{0%,82%{opacity:0}82.05%,100%{opacity:1}}.l82{animation:l82 12s linear infinite}@keyframes l83{0%,83%{opacity:0}83.05%,100%{opacity:1}}.l83{animation:l83 12s linear infinite}@keyframes l84{0%,84%{opacity:0}84.05%,100%{opacity:1}}.l84{animation:l84 12s linear infinite}@keyframes l85{0%,85%{opacity:0}85.05%,100%{opacity:1}}.l85{animation:l85 12s linear infinite}@keyframes l86_5{0%,86.5%{opacity:0}86.55%,100%{opacity:1}}.l86_5{animation:l86_5 12s linear infinite}@keyframes l87_5{0%,87.5%{opacity:0}87.55%,100%{opacity:1}}.l87_5{animation:l87_5 12s linear infinite}@keyframes l88_5{0%,88.5%{opacity:0}88.55%,100%{opacity:1}}.l88_5{animation:l88_5 12s linear infinite}@keyframes l90{0%,90%{opacity:0}90.05%,100%{opacity:1}}.l90{animation:l90 12s linear infinite}@keyframes l91{0%,91%{opacity:0}91.05%,100%{opacity:1}}.l91{animation:l91 12s linear infinite}@keyframes l92{0%,92%{opacity:0}92.05%,100%{opacity:1}}.l92{animation:l92 12s linear infinite}@keyframes l93{0%,93%{opacity:0}93.05%,100%{opacity:1}}.l93{animation:l93 12s linear infinite}@keyframes l94_5{0%,94.5%{opacity:0}94.55%,100%{opacity:1}}.l94_5{animation:l94_5 12s linear infinite}@keyframes l95_5{0%,95.5%{opacity:0}95.55%,100%{opacity:1}}.l95_5{animation:l95_5 12s linear infinite}@keyframes l96_5{0%,96.5%{opacity:0}96.55%,100%{opacity:1}}.l96_5{animation:l96_5 12s linear infinite}@keyframes l97_5{0%,97.5%{opacity:0}97.55%,100%{opacity:1}}.l97_5{animation:l97_5 12s linear infinite}@keyframes l99{0%,99%{opacity:0}99.05%,100%{opacity:1}}.l99{animation:l99 12s linear infinite}@keyframes l100{0%,99.9%{opacity:0}99.95%,100%{opacity:1}}.l100{animation:l100 12s linear infinite}@media (prefers-reduced-motion:reduce){.char{animation:none}[class^="l"]{animation:none;opacity:1}}</style>
+<rect class="bg" width="833" height="181"/>
+<text class="lbl" x="30" y="62">Eyl</text>
+<text class="lbl" x="90" y="62">Eki</text>
+<text class="lbl" x="150" y="62">Kas</text>
+<text class="lbl" x="225" y="62">Ara</text>
+<text class="lbl" x="285" y="62">Oca</text>
+<text class="lbl" x="345" y="62">Şub</text>
+<text class="lbl" x="405" y="62">Mar</text>
+<text class="lbl" x="480" y="62">Nis</text>
+<text class="lbl" x="540" y="62">May</text>
+<text class="lbl" x="615" y="62">Haz</text>
+<text class="lbl" x="675" y="62">Tem</text>
+<text class="lbl" x="735" y="62">Ağu</text>
+<text class="lbl" x="810" y="62">Eyl</text>
+<text class="lbl" x="26" y="90.5" text-anchor="end">Pzt</text>
+<text class="lbl" x="26" y="120.5" text-anchor="end">Çar</text>
+<text class="lbl" x="26" y="150.5" text-anchor="end">Cum</text>
+<g>
+<rect class="cell" x="30" y="66" width="12" height="12" fill="#ebedf0"><title>2025-09-07 · 0 katkı</title></rect>
+<rect class="cell" x="30" y="81" width="12" height="12" fill="#ebedf0"><title>2025-09-08 · 0 katkı</title></rect>
+<rect class="cell" x="30" y="96" width="12" height="12" fill="#ebedf0"><title>2025-09-09 · 0 katkı</title></rect>
+<rect class="cell" x="30" y="111" width="12" height="12" fill="#ebedf0"><title>2025-09-10 · 0 katkı</title></rect>
+<rect class="cell" x="30" y="126" width="12" height="12" fill="#ebedf0"><title>2025-09-11 · 0 katkı</title></rect>
+<rect class="cell" x="30" y="141" width="12" height="12" fill="#ebedf0"><title>2025-09-12 · 0 katkı</title></rect>
+<rect class="cell" x="30" y="156" width="12" height="12" fill="#ebedf0"><title>2025-09-13 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="66" width="12" height="12" fill="#ebedf0"><title>2025-09-14 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="81" width="12" height="12" fill="#ebedf0"><title>2025-09-15 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="96" width="12" height="12" fill="#ebedf0"><title>2025-09-16 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="111" width="12" height="12" fill="#ebedf0"><title>2025-09-17 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="126" width="12" height="12" fill="#ebedf0"><title>2025-09-18 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="141" width="12" height="12" fill="#ebedf0"><title>2025-09-19 · 0 katkı</title></rect>
+<rect class="cell" x="45" y="156" width="12" height="12" fill="#ebedf0"><title>2025-09-20 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="66" width="12" height="12" fill="#ebedf0"><title>2025-09-21 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="81" width="12" height="12" fill="#ebedf0"><title>2025-09-22 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="96" width="12" height="12" fill="#ebedf0"><title>2025-09-23 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="111" width="12" height="12" fill="#ebedf0"><title>2025-09-24 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="126" width="12" height="12" fill="#ebedf0"><title>2025-09-25 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="141" width="12" height="12" fill="#ebedf0"><title>2025-09-26 · 0 katkı</title></rect>
+<rect class="cell" x="60" y="156" width="12" height="12" fill="#ebedf0"><title>2025-09-27 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="66" width="12" height="12" fill="#ebedf0"><title>2025-09-28 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="81" width="12" height="12" fill="#ebedf0"><title>2025-09-29 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="96" width="12" height="12" fill="#ebedf0"><title>2025-09-30 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="111" width="12" height="12" fill="#ebedf0"><title>2025-10-01 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="126" width="12" height="12" fill="#ebedf0"><title>2025-10-02 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="141" width="12" height="12" fill="#ebedf0"><title>2025-10-03 · 0 katkı</title></rect>
+<rect class="cell" x="75" y="156" width="12" height="12" fill="#ebedf0"><title>2025-10-04 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="66" width="12" height="12" fill="#ebedf0"><title>2025-10-05 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="81" width="12" height="12" fill="#ebedf0"><title>2025-10-06 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="96" width="12" height="12" fill="#ebedf0"><title>2025-10-07 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="111" width="12" height="12" fill="#ebedf0"><title>2025-10-08 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="126" width="12" height="12" fill="#ebedf0"><title>2025-10-09 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="141" width="12" height="12" fill="#ebedf0"><title>2025-10-10 · 0 katkı</title></rect>
+<rect class="cell" x="90" y="156" width="12" height="12" fill="#ebedf0"><title>2025-10-11 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="66" width="12" height="12" fill="#ebedf0"><title>2025-10-12 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="81" width="12" height="12" fill="#ebedf0"><title>2025-10-13 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="96" width="12" height="12" fill="#ebedf0"><title>2025-10-14 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="111" width="12" height="12" fill="#ebedf0"><title>2025-10-15 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="126" width="12" height="12" fill="#ebedf0"><title>2025-10-16 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="141" width="12" height="12" fill="#ebedf0"><title>2025-10-17 · 0 katkı</title></rect>
+<rect class="cell" x="105" y="156" width="12" height="12" fill="#ebedf0"><title>2025-10-18 · 0 katkı</title></rect>
+<rect class="cell" x="120" y="66" width="12" height="12" fill="#ebedf0"><title>2025-10-19 · 0 katkı</title></rect>
+<rect class="cell" x="120" y="81" width="12" height="12" fill="#ebedf0"><title>2025-10-20 · 0 katkı</title></rect>
+<rect class="cell" x="120" y="96" width="12" height="12" fill="#ebedf0"><title>2025-10-21 · 0 katkı</title></rect>
+<rect class="cell" x="120" y="111" width="12" height="12" fill="#9be9a8"><title>2025-10-22 · 1 katkı</title></rect>
+<rect class="cell" x="120" y="126" width="12" height="12" fill="#ebedf0"><title>2025-10-23 · 0 katkı</title></rect>
+<rect class="cell" x="120" y="141" width="12" height="12" fill="#ebedf0"><title>2025-10-24 · 0 katkı</title></rect>
+<rect class="cell" x="120" y="156" width="12" height="12" fill="#ebedf0"><title>2025-10-25 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="66" width="12" height="12" fill="#ebedf0"><title>2025-10-26 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="81" width="12" height="12" fill="#ebedf0"><title>2025-10-27 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="96" width="12" height="12" fill="#ebedf0"><title>2025-10-28 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="111" width="12" height="12" fill="#ebedf0"><title>2025-10-29 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="126" width="12" height="12" fill="#ebedf0"><title>2025-10-30 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="141" width="12" height="12" fill="#ebedf0"><title>2025-10-31 · 0 katkı</title></rect>
+<rect class="cell" x="135" y="156" width="12" height="12" fill="#ebedf0"><title>2025-11-01 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="66" width="12" height="12" fill="#ebedf0"><title>2025-11-02 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="81" width="12" height="12" fill="#ebedf0"><title>2025-11-03 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="96" width="12" height="12" fill="#ebedf0"><title>2025-11-04 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="111" width="12" height="12" fill="#ebedf0"><title>2025-11-05 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="126" width="12" height="12" fill="#ebedf0"><title>2025-11-06 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="141" width="12" height="12" fill="#ebedf0"><title>2025-11-07 · 0 katkı</title></rect>
+<rect class="cell" x="150" y="156" width="12" height="12" fill="#ebedf0"><title>2025-11-08 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="66" width="12" height="12" fill="#ebedf0"><title>2025-11-09 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="81" width="12" height="12" fill="#ebedf0"><title>2025-11-10 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="96" width="12" height="12" fill="#ebedf0"><title>2025-11-11 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="111" width="12" height="12" fill="#ebedf0"><title>2025-11-12 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="126" width="12" height="12" fill="#ebedf0"><title>2025-11-13 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="141" width="12" height="12" fill="#ebedf0"><title>2025-11-14 · 0 katkı</title></rect>
+<rect class="cell" x="165" y="156" width="12" height="12" fill="#ebedf0"><title>2025-11-15 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="66" width="12" height="12" fill="#ebedf0"><title>2025-11-16 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="81" width="12" height="12" fill="#ebedf0"><title>2025-11-17 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="96" width="12" height="12" fill="#ebedf0"><title>2025-11-18 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="111" width="12" height="12" fill="#ebedf0"><title>2025-11-19 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="126" width="12" height="12" fill="#ebedf0"><title>2025-11-20 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="141" width="12" height="12" fill="#ebedf0"><title>2025-11-21 · 0 katkı</title></rect>
+<rect class="cell" x="180" y="156" width="12" height="12" fill="#ebedf0"><title>2025-11-22 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="66" width="12" height="12" fill="#ebedf0"><title>2025-11-23 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="81" width="12" height="12" fill="#ebedf0"><title>2025-11-24 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="96" width="12" height="12" fill="#ebedf0"><title>2025-11-25 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="111" width="12" height="12" fill="#ebedf0"><title>2025-11-26 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="126" width="12" height="12" fill="#ebedf0"><title>2025-11-27 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="141" width="12" height="12" fill="#ebedf0"><title>2025-11-28 · 0 katkı</title></rect>
+<rect class="cell" x="195" y="156" width="12" height="12" fill="#ebedf0"><title>2025-11-29 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="66" width="12" height="12" fill="#ebedf0"><title>2025-11-30 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="81" width="12" height="12" fill="#ebedf0"><title>2025-12-01 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="96" width="12" height="12" fill="#ebedf0"><title>2025-12-02 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="111" width="12" height="12" fill="#ebedf0"><title>2025-12-03 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="126" width="12" height="12" fill="#ebedf0"><title>2025-12-04 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="141" width="12" height="12" fill="#ebedf0"><title>2025-12-05 · 0 katkı</title></rect>
+<rect class="cell" x="210" y="156" width="12" height="12" fill="#ebedf0"><title>2025-12-06 · 0 katkı</title></rect>
+<rect class="cell" x="225" y="66" width="12" height="12" fill="#ebedf0"><title>2025-12-07 · 0 katkı</title></rect>
+<rect class="cell" x="225" y="81" width="12" height="12" fill="#ebedf0"><title>2025-12-08 · 0 katkı</title></rect>
+<rect class="cell" x="225" y="96" width="12" height="12" fill="#ebedf0"><title>2025-12-09 · 0 katkı</title></rect>
+<rect class="cell" x="225" y="111" width="12" height="12" fill="#40c463"><title>2025-12-10 · 5 katkı</title></rect>
+<rect class="cell" x="225" y="126" width="12" height="12" fill="#40c463"><title>2025-12-11 · 3 katkı</title></rect>
+<rect class="cell" x="225" y="141" width="12" height="12" fill="#ebedf0"><title>2025-12-12 · 0 katkı</title></rect>
+<rect class="cell" x="225" y="156" width="12" height="12" fill="#9be9a8"><title>2025-12-13 · 1 katkı</title></rect>
+<rect class="cell" x="240" y="66" width="12" height="12" fill="#ebedf0"><title>2025-12-14 · 0 katkı</title></rect>
+<rect class="cell" x="240" y="81" width="12" height="12" fill="#9be9a8"><title>2025-12-15 · 1 katkı</title></rect>
+<rect class="cell" x="240" y="96" width="12" height="12" fill="#216e39"><title>2025-12-16 · 15 katkı</title></rect>
+<rect class="cell" x="240" y="111" width="12" height="12" fill="#ebedf0"><title>2025-12-17 · 0 katkı</title></rect>
+<rect class="cell" x="240" y="126" width="12" height="12" fill="#ebedf0"><title>2025-12-18 · 0 katkı</title></rect>
+<rect class="cell" x="240" y="141" width="12" height="12" fill="#9be9a8"><title>2025-12-19 · 1 katkı</title></rect>
+<rect class="cell" x="240" y="156" width="12" height="12" fill="#9be9a8"><title>2025-12-20 · 2 katkı</title></rect>
+<rect class="cell" x="255" y="66" width="12" height="12" fill="#ebedf0"><title>2025-12-21 · 0 katkı</title></rect>
+<rect class="cell" x="255" y="81" width="12" height="12" fill="#40c463"><title>2025-12-22 · 4 katkı</title></rect>
+<rect class="cell" x="255" y="96" width="12" height="12" fill="#ebedf0"><title>2025-12-23 · 0 katkı</title></rect>
+<rect class="cell" x="255" y="111" width="12" height="12" fill="#9be9a8"><title>2025-12-24 · 1 katkı</title></rect>
+<rect class="cell" x="255" y="126" width="12" height="12" fill="#ebedf0"><title>2025-12-25 · 0 katkı</title></rect>
+<rect class="cell" x="255" y="141" width="12" height="12" fill="#9be9a8"><title>2025-12-26 · 2 katkı</title></rect>
+<rect class="cell" x="255" y="156" width="12" height="12" fill="#ebedf0"><title>2025-12-27 · 0 katkı</title></rect>
+<rect class="cell" x="270" y="66" width="12" height="12" fill="#9be9a8"><title>2025-12-28 · 2 katkı</title></rect>
+<rect class="cell" x="270" y="81" width="12" height="12" fill="#40c463"><title>2025-12-29 · 3 katkı</title></rect>
+<rect class="cell" x="270" y="96" width="12" height="12" fill="#40c463"><title>2025-12-30 · 5 katkı</title></rect>
+<rect class="cell" x="270" y="111" width="12" height="12" fill="#30a14e"><title>2025-12-31 · 7 katkı</title></rect>
+<rect class="cell" x="270" y="126" width="12" height="12" fill="#40c463"><title>2026-01-01 · 3 katkı</title></rect>
+<rect class="cell" x="270" y="141" width="12" height="12" fill="#216e39"><title>2026-01-02 · 14 katkı</title></rect>
+<rect class="cell" x="270" y="156" width="12" height="12" fill="#216e39"><title>2026-01-03 · 12 katkı</title></rect>
+<rect class="cell" x="285" y="66" width="12" height="12" fill="#ebedf0"><title>2026-01-04 · 0 katkı</title></rect>
+<rect class="cell" x="285" y="81" width="12" height="12" fill="#ebedf0"><title>2026-01-05 · 0 katkı</title></rect>
+<rect class="cell" x="285" y="96" width="12" height="12" fill="#30a14e"><title>2026-01-06 · 7 katkı</title></rect>
+<rect class="cell" x="285" y="111" width="12" height="12" fill="#ebedf0"><title>2026-01-07 · 0 katkı</title></rect>
+<rect class="cell" x="285" y="126" width="12" height="12" fill="#ebedf0"><title>2026-01-08 · 0 katkı</title></rect>
+<rect class="cell" x="285" y="141" width="12" height="12" fill="#ebedf0"><title>2026-01-09 · 0 katkı</title></rect>
+<rect class="cell" x="285" y="156" width="12" height="12" fill="#ebedf0"><title>2026-01-10 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="66" width="12" height="12" fill="#ebedf0"><title>2026-01-11 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="81" width="12" height="12" fill="#ebedf0"><title>2026-01-12 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="96" width="12" height="12" fill="#ebedf0"><title>2026-01-13 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="111" width="12" height="12" fill="#ebedf0"><title>2026-01-14 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="126" width="12" height="12" fill="#ebedf0"><title>2026-01-15 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="141" width="12" height="12" fill="#ebedf0"><title>2026-01-16 · 0 katkı</title></rect>
+<rect class="cell" x="300" y="156" width="12" height="12" fill="#ebedf0"><title>2026-01-17 · 0 katkı</title></rect>
+<rect class="cell" x="315" y="66" width="12" height="12" fill="#ebedf0"><title>2026-01-18 · 0 katkı</title></rect>
+<rect class="cell" x="315" y="81" width="12" height="12" fill="#9be9a8"><title>2026-01-19 · 2 katkı</title></rect>
+<rect class="cell" x="315" y="96" width="12" height="12" fill="#ebedf0"><title>2026-01-20 · 0 katkı</title></rect>
+<rect class="cell" x="315" y="111" width="12" height="12" fill="#ebedf0"><title>2026-01-21 · 0 katkı</title></rect>
+<rect class="cell" x="315" y="126" width="12" height="12" fill="#30a14e"><title>2026-01-22 · 7 katkı</title></rect>
+<rect class="cell" x="315" y="141" width="12" height="12" fill="#ebedf0"><title>2026-01-23 · 0 katkı</title></rect>
+<rect class="cell" x="315" y="156" width="12" height="12" fill="#40c463"><title>2026-01-24 · 3 katkı</title></rect>
+<rect class="cell" x="330" y="66" width="12" height="12" fill="#ebedf0"><title>2026-01-25 · 0 katkı</title></rect>
+<rect class="cell" x="330" y="81" width="12" height="12" fill="#ebedf0"><title>2026-01-26 · 0 katkı</title></rect>
+<rect class="cell" x="330" y="96" width="12" height="12" fill="#ebedf0"><title>2026-01-27 · 0 katkı</title></rect>
+<rect class="cell" x="330" y="111" width="12" height="12" fill="#ebedf0"><title>2026-01-28 · 0 katkı</title></rect>
+<rect class="cell" x="330" y="126" width="12" height="12" fill="#ebedf0"><title>2026-01-29 · 0 katkı</title></rect>
+<rect class="cell" x="330" y="141" width="12" height="12" fill="#ebedf0"><title>2026-01-30 · 0 katkı</title></rect>
+<rect class="cell" x="330" y="156" width="12" height="12" fill="#ebedf0"><title>2026-01-31 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="66" width="12" height="12" fill="#ebedf0"><title>2026-02-01 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="81" width="12" height="12" fill="#ebedf0"><title>2026-02-02 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="96" width="12" height="12" fill="#ebedf0"><title>2026-02-03 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="111" width="12" height="12" fill="#ebedf0"><title>2026-02-04 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="126" width="12" height="12" fill="#ebedf0"><title>2026-02-05 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="141" width="12" height="12" fill="#ebedf0"><title>2026-02-06 · 0 katkı</title></rect>
+<rect class="cell" x="345" y="156" width="12" height="12" fill="#ebedf0"><title>2026-02-07 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="66" width="12" height="12" fill="#ebedf0"><title>2026-02-08 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="81" width="12" height="12" fill="#ebedf0"><title>2026-02-09 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="96" width="12" height="12" fill="#ebedf0"><title>2026-02-10 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="111" width="12" height="12" fill="#ebedf0"><title>2026-02-11 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="126" width="12" height="12" fill="#ebedf0"><title>2026-02-12 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="141" width="12" height="12" fill="#ebedf0"><title>2026-02-13 · 0 katkı</title></rect>
+<rect class="cell" x="360" y="156" width="12" height="12" fill="#ebedf0"><title>2026-02-14 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="66" width="12" height="12" fill="#ebedf0"><title>2026-02-15 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="81" width="12" height="12" fill="#ebedf0"><title>2026-02-16 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="96" width="12" height="12" fill="#ebedf0"><title>2026-02-17 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="111" width="12" height="12" fill="#ebedf0"><title>2026-02-18 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="126" width="12" height="12" fill="#ebedf0"><title>2026-02-19 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="141" width="12" height="12" fill="#ebedf0"><title>2026-02-20 · 0 katkı</title></rect>
+<rect class="cell" x="375" y="156" width="12" height="12" fill="#ebedf0"><title>2026-02-21 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="66" width="12" height="12" fill="#ebedf0"><title>2026-02-22 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="81" width="12" height="12" fill="#ebedf0"><title>2026-02-23 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="96" width="12" height="12" fill="#ebedf0"><title>2026-02-24 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="111" width="12" height="12" fill="#ebedf0"><title>2026-02-25 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="126" width="12" height="12" fill="#ebedf0"><title>2026-02-26 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="141" width="12" height="12" fill="#ebedf0"><title>2026-02-27 · 0 katkı</title></rect>
+<rect class="cell" x="390" y="156" width="12" height="12" fill="#30a14e"><title>2026-02-28 · 6 katkı</title></rect>
+<rect class="cell" x="405" y="66" width="12" height="12" fill="#9be9a8"><title>2026-03-01 · 1 katkı</title></rect>
+<rect class="cell" x="405" y="81" width="12" height="12" fill="#ebedf0"><title>2026-03-02 · 0 katkı</title></rect>
+<rect class="cell" x="405" y="96" width="12" height="12" fill="#9be9a8"><title>2026-03-03 · 2 katkı</title></rect>
+<rect class="cell" x="405" y="111" width="12" height="12" fill="#9be9a8"><title>2026-03-04 · 1 katkı</title></rect>
+<rect class="cell" x="405" y="126" width="12" height="12" fill="#9be9a8"><title>2026-03-05 · 1 katkı</title></rect>
+<rect class="cell" x="405" y="141" width="12" height="12" fill="#ebedf0"><title>2026-03-06 · 0 katkı</title></rect>
+<rect class="cell" x="405" y="156" width="12" height="12" fill="#9be9a8"><title>2026-03-07 · 2 katkı</title></rect>
+<rect class="cell" x="420" y="66" width="12" height="12" fill="#ebedf0"><title>2026-03-08 · 0 katkı</title></rect>
+<rect class="cell" x="420" y="81" width="12" height="12" fill="#40c463"><title>2026-03-09 · 3 katkı</title></rect>
+<rect class="cell" x="420" y="96" width="12" height="12" fill="#ebedf0"><title>2026-03-10 · 0 katkı</title></rect>
+<rect class="cell" x="420" y="111" width="12" height="12" fill="#ebedf0"><title>2026-03-11 · 0 katkı</title></rect>
+<rect class="cell" x="420" y="126" width="12" height="12" fill="#9be9a8"><title>2026-03-12 · 1 katkı</title></rect>
+<rect class="cell" x="420" y="141" width="12" height="12" fill="#ebedf0"><title>2026-03-13 · 0 katkı</title></rect>
+<rect class="cell" x="420" y="156" width="12" height="12" fill="#ebedf0"><title>2026-03-14 · 0 katkı</title></rect>
+<rect class="cell" x="435" y="66" width="12" height="12" fill="#40c463"><title>2026-03-15 · 5 katkı</title></rect>
+<rect class="cell" x="435" y="81" width="12" height="12" fill="#ebedf0"><title>2026-03-16 · 0 katkı</title></rect>
+<rect class="cell" x="435" y="96" width="12" height="12" fill="#ebedf0"><title>2026-03-17 · 0 katkı</title></rect>
+<rect class="cell" x="435" y="111" width="12" height="12" fill="#ebedf0"><title>2026-03-18 · 0 katkı</title></rect>
+<rect class="cell" x="435" y="126" width="12" height="12" fill="#ebedf0"><title>2026-03-19 · 0 katkı</title></rect>
+<rect class="cell" x="435" y="141" width="12" height="12" fill="#ebedf0"><title>2026-03-20 · 0 katkı</title></rect>
+<rect class="cell" x="435" y="156" width="12" height="12" fill="#ebedf0"><title>2026-03-21 · 0 katkı</title></rect>
+<rect class="cell" x="450" y="66" width="12" height="12" fill="#ebedf0"><title>2026-03-22 · 0 katkı</title></rect>
+<rect class="cell" x="450" y="81" width="12" height="12" fill="#ebedf0"><title>2026-03-23 · 0 katkı</title></rect>
+<rect class="cell" x="450" y="96" width="12" height="12" fill="#ebedf0"><title>2026-03-24 · 0 katkı</title></rect>
+<rect class="cell" x="450" y="111" width="12" height="12" fill="#ebedf0"><title>2026-03-25 · 0 katkı</title></rect>
+<rect class="cell" x="450" y="126" width="12" height="12" fill="#9be9a8"><title>2026-03-26 · 1 katkı</title></rect>
+<rect class="cell" x="450" y="141" width="12" height="12" fill="#ebedf0"><title>2026-03-27 · 0 katkı</title></rect>
+<rect class="cell" x="450" y="156" width="12" height="12" fill="#ebedf0"><title>2026-03-28 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="66" width="12" height="12" fill="#ebedf0"><title>2026-03-29 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="81" width="12" height="12" fill="#ebedf0"><title>2026-03-30 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="96" width="12" height="12" fill="#ebedf0"><title>2026-03-31 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="111" width="12" height="12" fill="#ebedf0"><title>2026-04-01 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="126" width="12" height="12" fill="#ebedf0"><title>2026-04-02 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="141" width="12" height="12" fill="#ebedf0"><title>2026-04-03 · 0 katkı</title></rect>
+<rect class="cell" x="465" y="156" width="12" height="12" fill="#ebedf0"><title>2026-04-04 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="66" width="12" height="12" fill="#ebedf0"><title>2026-04-05 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="81" width="12" height="12" fill="#ebedf0"><title>2026-04-06 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="96" width="12" height="12" fill="#ebedf0"><title>2026-04-07 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="111" width="12" height="12" fill="#ebedf0"><title>2026-04-08 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="126" width="12" height="12" fill="#ebedf0"><title>2026-04-09 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="141" width="12" height="12" fill="#ebedf0"><title>2026-04-10 · 0 katkı</title></rect>
+<rect class="cell" x="480" y="156" width="12" height="12" fill="#ebedf0"><title>2026-04-11 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="66" width="12" height="12" fill="#ebedf0"><title>2026-04-12 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="81" width="12" height="12" fill="#ebedf0"><title>2026-04-13 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="96" width="12" height="12" fill="#ebedf0"><title>2026-04-14 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="111" width="12" height="12" fill="#ebedf0"><title>2026-04-15 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="126" width="12" height="12" fill="#ebedf0"><title>2026-04-16 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="141" width="12" height="12" fill="#ebedf0"><title>2026-04-17 · 0 katkı</title></rect>
+<rect class="cell" x="495" y="156" width="12" height="12" fill="#ebedf0"><title>2026-04-18 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="66" width="12" height="12" fill="#ebedf0"><title>2026-04-19 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="81" width="12" height="12" fill="#ebedf0"><title>2026-04-20 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="96" width="12" height="12" fill="#ebedf0"><title>2026-04-21 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="111" width="12" height="12" fill="#ebedf0"><title>2026-04-22 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="126" width="12" height="12" fill="#ebedf0"><title>2026-04-23 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="141" width="12" height="12" fill="#ebedf0"><title>2026-04-24 · 0 katkı</title></rect>
+<rect class="cell" x="510" y="156" width="12" height="12" fill="#ebedf0"><title>2026-04-25 · 0 katkı</title></rect>
+<rect class="cell" x="525" y="66" width="12" height="12" fill="#ebedf0"><title>2026-04-26 · 0 katkı</title></rect>
+<rect class="cell" x="525" y="81" width="12" height="12" fill="#40c463"><title>2026-04-27 · 3 katkı</title></rect>
+<rect class="cell" x="525" y="96" width="12" height="12" fill="#9be9a8"><title>2026-04-28 · 1 katkı</title></rect>
+<rect class="cell" x="525" y="111" width="12" height="12" fill="#30a14e"><title>2026-04-29 · 7 katkı</title></rect>
+<rect class="cell" x="525" y="126" width="12" height="12" fill="#40c463"><title>2026-04-30 · 4 katkı</title></rect>
+<rect class="cell" x="525" y="141" width="12" height="12" fill="#40c463"><title>2026-05-01 · 5 katkı</title></rect>
+<rect class="cell" x="525" y="156" width="12" height="12" fill="#ebedf0"><title>2026-05-02 · 0 katkı</title></rect>
+<rect class="cell" x="540" y="66" width="12" height="12" fill="#30a14e"><title>2026-05-03 · 8 katkı</title></rect>
+<rect class="cell" x="540" y="81" width="12" height="12" fill="#9be9a8"><title>2026-05-04 · 1 katkı</title></rect>
+<rect class="cell" x="540" y="96" width="12" height="12" fill="#30a14e"><title>2026-05-05 · 8 katkı</title></rect>
+<rect class="cell" x="540" y="111" width="12" height="12" fill="#ebedf0"><title>2026-05-06 · 0 katkı</title></rect>
+<rect class="cell" x="540" y="126" width="12" height="12" fill="#216e39"><title>2026-05-07 · 11 katkı</title></rect>
+<rect class="cell" x="540" y="141" width="12" height="12" fill="#30a14e"><title>2026-05-08 · 8 katkı</title></rect>
+<rect class="cell" x="540" y="156" width="12" height="12" fill="#40c463"><title>2026-05-09 · 3 katkı</title></rect>
+<rect class="cell" x="555" y="66" width="12" height="12" fill="#40c463"><title>2026-05-10 · 5 katkı</title></rect>
+<rect class="cell" x="555" y="81" width="12" height="12" fill="#ebedf0"><title>2026-05-11 · 0 katkı</title></rect>
+<rect class="cell" x="555" y="96" width="12" height="12" fill="#40c463"><title>2026-05-12 · 4 katkı</title></rect>
+<rect class="cell" x="555" y="111" width="12" height="12" fill="#ebedf0"><title>2026-05-13 · 0 katkı</title></rect>
+<rect class="cell" x="555" y="126" width="12" height="12" fill="#9be9a8"><title>2026-05-14 · 1 katkı</title></rect>
+<rect class="cell" x="555" y="141" width="12" height="12" fill="#9be9a8"><title>2026-05-15 · 2 katkı</title></rect>
+<rect class="cell" x="555" y="156" width="12" height="12" fill="#ebedf0"><title>2026-05-16 · 0 katkı</title></rect>
+<rect class="cell" x="570" y="66" width="12" height="12" fill="#ebedf0"><title>2026-05-17 · 0 katkı</title></rect>
+<rect class="cell" x="570" y="81" width="12" height="12" fill="#ebedf0"><title>2026-05-18 · 0 katkı</title></rect>
+<rect class="cell" x="570" y="96" width="12" height="12" fill="#ebedf0"><title>2026-05-19 · 0 katkı</title></rect>
+<rect class="cell" x="570" y="111" width="12" height="12" fill="#40c463"><title>2026-05-20 · 3 katkı</title></rect>
+<rect class="cell" x="570" y="126" width="12" height="12" fill="#ebedf0"><title>2026-05-21 · 0 katkı</title></rect>
+<rect class="cell" x="570" y="141" width="12" height="12" fill="#ebedf0"><title>2026-05-22 · 0 katkı</title></rect>
+<rect class="cell" x="570" y="156" width="12" height="12" fill="#ebedf0"><title>2026-05-23 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="66" width="12" height="12" fill="#ebedf0"><title>2026-05-24 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="81" width="12" height="12" fill="#ebedf0"><title>2026-05-25 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="96" width="12" height="12" fill="#ebedf0"><title>2026-05-26 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="111" width="12" height="12" fill="#ebedf0"><title>2026-05-27 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="126" width="12" height="12" fill="#ebedf0"><title>2026-05-28 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="141" width="12" height="12" fill="#ebedf0"><title>2026-05-29 · 0 katkı</title></rect>
+<rect class="cell" x="585" y="156" width="12" height="12" fill="#ebedf0"><title>2026-05-30 · 0 katkı</title></rect>
+<rect class="cell" x="600" y="66" width="12" height="12" fill="#9be9a8"><title>2026-05-31 · 1 katkı</title></rect>
+<rect class="cell" x="600" y="81" width="12" height="12" fill="#ebedf0"><title>2026-06-01 · 0 katkı</title></rect>
+<rect class="cell" x="600" y="96" width="12" height="12" fill="#ebedf0"><title>2026-06-02 · 0 katkı</title></rect>
+<rect class="cell" x="600" y="111" width="12" height="12" fill="#ebedf0"><title>2026-06-03 · 0 katkı</title></rect>
+<rect class="cell" x="600" y="126" width="12" height="12" fill="#ebedf0"><title>2026-06-04 · 0 katkı</title></rect>
+<rect class="cell" x="600" y="141" width="12" height="12" fill="#ebedf0"><title>2026-06-05 · 0 katkı</title></rect>
+<rect class="cell" x="600" y="156" width="12" height="12" fill="#ebedf0"><title>2026-06-06 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="66" width="12" height="12" fill="#ebedf0"><title>2026-06-07 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="81" width="12" height="12" fill="#ebedf0"><title>2026-06-08 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="96" width="12" height="12" fill="#ebedf0"><title>2026-06-09 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="111" width="12" height="12" fill="#ebedf0"><title>2026-06-10 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="126" width="12" height="12" fill="#ebedf0"><title>2026-06-11 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="141" width="12" height="12" fill="#ebedf0"><title>2026-06-12 · 0 katkı</title></rect>
+<rect class="cell" x="615" y="156" width="12" height="12" fill="#ebedf0"><title>2026-06-13 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="66" width="12" height="12" fill="#ebedf0"><title>2026-06-14 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="81" width="12" height="12" fill="#ebedf0"><title>2026-06-15 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="96" width="12" height="12" fill="#ebedf0"><title>2026-06-16 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="111" width="12" height="12" fill="#ebedf0"><title>2026-06-17 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="126" width="12" height="12" fill="#ebedf0"><title>2026-06-18 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="141" width="12" height="12" fill="#ebedf0"><title>2026-06-19 · 0 katkı</title></rect>
+<rect class="cell" x="630" y="156" width="12" height="12" fill="#ebedf0"><title>2026-06-20 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="66" width="12" height="12" fill="#ebedf0"><title>2026-06-21 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="81" width="12" height="12" fill="#ebedf0"><title>2026-06-22 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="96" width="12" height="12" fill="#ebedf0"><title>2026-06-23 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="111" width="12" height="12" fill="#ebedf0"><title>2026-06-24 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="126" width="12" height="12" fill="#ebedf0"><title>2026-06-25 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="141" width="12" height="12" fill="#ebedf0"><title>2026-06-26 · 0 katkı</title></rect>
+<rect class="cell" x="645" y="156" width="12" height="12" fill="#ebedf0"><title>2026-06-27 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="66" width="12" height="12" fill="#ebedf0"><title>2026-06-28 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="81" width="12" height="12" fill="#ebedf0"><title>2026-06-29 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="96" width="12" height="12" fill="#ebedf0"><title>2026-06-30 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="111" width="12" height="12" fill="#ebedf0"><title>2026-07-01 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="126" width="12" height="12" fill="#ebedf0"><title>2026-07-02 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="141" width="12" height="12" fill="#ebedf0"><title>2026-07-03 · 0 katkı</title></rect>
+<rect class="cell" x="660" y="156" width="12" height="12" fill="#ebedf0"><title>2026-07-04 · 0 katkı</title></rect>
+<rect class="cell" x="675" y="66" width="12" height="12" fill="#ebedf0"><title>2026-07-05 · 0 katkı</title></rect>
+<rect class="cell" x="675" y="81" width="12" height="12" fill="#9be9a8"><title>2026-07-06 · 2 katkı</title></rect>
+<rect class="cell" x="675" y="96" width="12" height="12" fill="#9be9a8"><title>2026-07-07 · 1 katkı</title></rect>
+<rect class="cell" x="675" y="111" width="12" height="12" fill="#40c463"><title>2026-07-08 · 4 katkı</title></rect>
+<rect class="cell" x="675" y="126" width="12" height="12" fill="#40c463"><title>2026-07-09 · 4 katkı</title></rect>
+<rect class="cell" x="675" y="141" width="12" height="12" fill="#9be9a8"><title>2026-07-10 · 1 katkı</title></rect>
+<rect class="cell" x="675" y="156" width="12" height="12" fill="#ebedf0"><title>2026-07-11 · 0 katkı</title></rect>
+<rect class="cell" x="690" y="66" width="12" height="12" fill="#ebedf0"><title>2026-07-12 · 0 katkı</title></rect>
+<rect class="cell" x="690" y="81" width="12" height="12" fill="#40c463"><title>2026-07-13 · 4 katkı</title></rect>
+<rect class="cell" x="690" y="96" width="12" height="12" fill="#40c463"><title>2026-07-14 · 4 katkı</title></rect>
+<rect class="cell" x="690" y="111" width="12" height="12" fill="#ebedf0"><title>2026-07-15 · 0 katkı</title></rect>
+<rect class="cell" x="690" y="126" width="12" height="12" fill="#9be9a8"><title>2026-07-16 · 2 katkı</title></rect>
+<rect class="cell" x="690" y="141" width="12" height="12" fill="#9be9a8"><title>2026-07-17 · 2 katkı</title></rect>
+<rect class="cell" x="690" y="156" width="12" height="12" fill="#ebedf0"><title>2026-07-18 · 0 katkı</title></rect>
+<rect class="cell" x="705" y="66" width="12" height="12" fill="#ebedf0"><title>2026-07-19 · 0 katkı</title></rect>
+<rect class="cell" x="705" y="81" width="12" height="12" fill="#9be9a8"><title>2026-07-20 · 1 katkı</title></rect>
+<rect class="cell" x="705" y="96" width="12" height="12" fill="#ebedf0"><title>2026-07-21 · 0 katkı</title></rect>
+<rect class="cell" x="705" y="111" width="12" height="12" fill="#30a14e"><title>2026-07-22 · 6 katkı</title></rect>
+<rect class="cell" x="705" y="126" width="12" height="12" fill="#216e39"><title>2026-07-23 · 14 katkı</title></rect>
+<rect class="cell" x="705" y="141" width="12" height="12" fill="#9be9a8"><title>2026-07-24 · 2 katkı</title></rect>
+<rect class="cell" x="705" y="156" width="12" height="12" fill="#ebedf0"><title>2026-07-25 · 0 katkı</title></rect>
+<rect class="cell" x="720" y="66" width="12" height="12" fill="#9be9a8"><title>2026-07-26 · 2 katkı</title></rect>
+<rect class="cell" x="720" y="81" width="12" height="12" fill="#ebedf0"><title>2026-07-27 · 0 katkı</title></rect>
+<rect class="cell" x="720" y="96" width="12" height="12" fill="#40c463"><title>2026-07-28 · 4 katkı</title></rect>
+<rect class="cell" x="720" y="111" width="12" height="12" fill="#ebedf0"><title>2026-07-29 · 0 katkı</title></rect>
+<rect class="cell" x="720" y="126" width="12" height="12" fill="#ebedf0"><title>2026-07-30 · 0 katkı</title></rect>
+<rect class="cell" x="720" y="141" width="12" height="12" fill="#ebedf0"><title>2026-07-31 · 0 katkı</title></rect>
+<rect class="cell" x="720" y="156" width="12" height="12" fill="#30a14e"><title>2026-08-01 · 6 katkı</title></rect>
+<rect class="cell" x="735" y="66" width="12" height="12" fill="#ebedf0"><title>2026-08-02 · 0 katkı</title></rect>
+<rect class="cell" x="735" y="81" width="12" height="12" fill="#ebedf0"><title>2026-08-03 · 0 katkı</title></rect>
+<rect class="cell" x="735" y="96" width="12" height="12" fill="#ebedf0"><title>2026-08-04 · 0 katkı</title></rect>
+<rect class="cell" x="735" y="111" width="12" height="12" fill="#ebedf0"><title>2026-08-05 · 0 katkı</title></rect>
+<rect class="cell" x="735" y="126" width="12" height="12" fill="#ebedf0"><title>2026-08-06 · 0 katkı</title></rect>
+<rect class="cell" x="735" y="141" width="12" height="12" fill="#216e39"><title>2026-08-07 · 12 katkı</title></rect>
+<rect class="cell" x="735" y="156" width="12" height="12" fill="#40c463"><title>2026-08-08 · 4 katkı</title></rect>
+<rect class="cell" x="750" y="66" width="12" height="12" fill="#40c463"><title>2026-08-09 · 5 katkı</title></rect>
+<rect class="cell" x="750" y="81" width="12" height="12" fill="#216e39"><title>2026-08-10 · 15 katkı</title></rect>
+<rect class="cell" x="750" y="96" width="12" height="12" fill="#216e39"><title>2026-08-11 · 12 katkı</title></rect>
+<rect class="cell" x="750" y="111" width="12" height="12" fill="#216e39"><title>2026-08-12 · 10 katkı</title></rect>
+<rect class="cell" x="750" y="126" width="12" height="12" fill="#216e39"><title>2026-08-13 · 12 katkı</title></rect>
+<rect class="cell" x="750" y="141" width="12" height="12" fill="#216e39"><title>2026-08-14 · 11 katkı</title></rect>
+<rect class="cell" x="750" y="156" width="12" height="12" fill="#ebedf0"><title>2026-08-15 · 0 katkı</title></rect>
+<rect class="cell" x="765" y="66" width="12" height="12" fill="#9be9a8"><title>2026-08-16 · 2 katkı</title></rect>
+<rect class="cell" x="765" y="81" width="12" height="12" fill="#30a14e"><title>2026-08-17 · 7 katkı</title></rect>
+<rect class="cell" x="765" y="96" width="12" height="12" fill="#216e39"><title>2026-08-18 · 22 katkı</title></rect>
+<rect class="cell" x="765" y="111" width="12" height="12" fill="#30a14e"><title>2026-08-19 · 7 katkı</title></rect>
+<rect class="cell" x="765" y="126" width="12" height="12" fill="#216e39"><title>2026-08-20 · 13 katkı</title></rect>
+<rect class="cell" x="765" y="141" width="12" height="12" fill="#40c463"><title>2026-08-21 · 3 katkı</title></rect>
+<rect class="cell" x="765" y="156" width="12" height="12" fill="#ebedf0"><title>2026-08-22 · 0 katkı</title></rect>
+<rect class="cell" x="780" y="66" width="12" height="12" fill="#ebedf0"><title>2026-08-23 · 0 katkı</title></rect>
+<rect class="cell" x="780" y="81" width="12" height="12" fill="#9be9a8"><title>2026-08-24 · 2 katkı</title></rect>
+<rect class="cell" x="780" y="96" width="12" height="12" fill="#40c463"><title>2026-08-25 · 5 katkı</title></rect>
+<rect class="cell" x="780" y="111" width="12" height="12" fill="#9be9a8"><title>2026-08-26 · 2 katkı</title></rect>
+<rect class="cell" x="780" y="126" width="12" height="12" fill="#9be9a8"><title>2026-08-27 · 2 katkı</title></rect>
+<rect class="cell" x="780" y="141" width="12" height="12" fill="#40c463"><title>2026-08-28 · 5 katkı</title></rect>
+<rect class="cell" x="780" y="156" width="12" height="12" fill="#ebedf0"><title>2026-08-29 · 0 katkı</title></rect>
+<rect class="cell" x="795" y="66" width="12" height="12" fill="#ebedf0"><title>2026-08-30 · 0 katkı</title></rect>
+<rect class="cell" x="795" y="81" width="12" height="12" fill="#30a14e"><title>2026-08-31 · 8 katkı</title></rect>
+<rect class="cell" x="795" y="96" width="12" height="12" fill="#30a14e"><title>2026-09-01 · 6 katkı</title></rect>
+<rect class="cell" x="795" y="111" width="12" height="12" fill="#30a14e"><title>2026-09-02 · 8 katkı</title></rect>
+<rect class="cell" x="795" y="126" width="12" height="12" fill="#216e39"><title>2026-09-03 · 50 katkı</title></rect>
+<rect class="cell" x="795" y="141" width="12" height="12" fill="#216e39"><title>2026-09-04 · 14 katkı</title></rect>
+<rect class="cell" x="795" y="156" width="12" height="12" fill="#ebedf0"><title>2026-09-05 · 0 katkı</title></rect>
+<rect class="cell" x="810" y="66" width="12" height="12" fill="#ebedf0"><title>2026-09-06 · 0 katkı</title></rect>
+</g>
+<g>
+<rect class="hl l0" x="120" y="111" width="12" height="12"/>
+<rect class="hl l1" x="225" y="111" width="12" height="12"/>
+<rect class="hl l2_5" x="225" y="126" width="12" height="12"/>
+<rect class="hl l3_5" x="225" y="156" width="12" height="12"/>
+<rect class="hl l4_5" x="240" y="156" width="12" height="12"/>
+<rect class="hl l5_5" x="240" y="141" width="12" height="12"/>
+<rect class="hl l7" x="240" y="96" width="12" height="12"/>
+<rect class="hl l8" x="240" y="81" width="12" height="12"/>
+<rect class="hl l9" x="255" y="81" width="12" height="12"/>
+<rect class="hl l10" x="255" y="111" width="12" height="12"/>
+<rect class="hl l11_5" x="255" y="141" width="12" height="12"/>
+<rect class="hl l12_5" x="270" y="156" width="12" height="12"/>
+<rect class="hl l13_5" x="270" y="141" width="12" height="12"/>
+<rect class="hl l15" x="270" y="126" width="12" height="12"/>
+<rect class="hl l16" x="270" y="111" width="12" height="12"/>
+<rect class="hl l17" x="270" y="96" width="12" height="12"/>
+<rect class="hl l18" x="270" y="81" width="12" height="12"/>
+<rect class="hl l19_5" x="270" y="66" width="12" height="12"/>
+<rect class="hl l20_5" x="285" y="96" width="12" height="12"/>
+<rect class="hl l21_5" x="315" y="81" width="12" height="12"/>
+<rect class="hl l22_5" x="315" y="126" width="12" height="12"/>
+<rect class="hl l24" x="315" y="156" width="12" height="12"/>
+<rect class="hl l25" x="390" y="156" width="12" height="12"/>
+<rect class="hl l26" x="405" y="66" width="12" height="12"/>
+<rect class="hl l27_5" x="405" y="96" width="12" height="12"/>
+<rect class="hl l28_5" x="405" y="111" width="12" height="12"/>
+<rect class="hl l29_5" x="405" y="126" width="12" height="12"/>
+<rect class="hl l30_5" x="405" y="156" width="12" height="12"/>
+<rect class="hl l32" x="420" y="126" width="12" height="12"/>
+<rect class="hl l33" x="420" y="81" width="12" height="12"/>
+<rect class="hl l34" x="435" y="66" width="12" height="12"/>
+<rect class="hl l35" x="450" y="126" width="12" height="12"/>
+<rect class="hl l36_5" x="525" y="81" width="12" height="12"/>
+<rect class="hl l37_5" x="525" y="96" width="12" height="12"/>
+<rect class="hl l38_5" x="525" y="111" width="12" height="12"/>
+<rect class="hl l40" x="525" y="126" width="12" height="12"/>
+<rect class="hl l41" x="525" y="141" width="12" height="12"/>
+<rect class="hl l42" x="540" y="156" width="12" height="12"/>
+<rect class="hl l43" x="540" y="141" width="12" height="12"/>
+<rect class="hl l44_5" x="540" y="126" width="12" height="12"/>
+<rect class="hl l45_5" x="540" y="96" width="12" height="12"/>
+<rect class="hl l46_5" x="540" y="81" width="12" height="12"/>
+<rect class="hl l47_5" x="540" y="66" width="12" height="12"/>
+<rect class="hl l49" x="555" y="66" width="12" height="12"/>
+<rect class="hl l50" x="555" y="96" width="12" height="12"/>
+<rect class="hl l51" x="555" y="126" width="12" height="12"/>
+<rect class="hl l52_5" x="555" y="141" width="12" height="12"/>
+<rect class="hl l53_5" x="570" y="111" width="12" height="12"/>
+<rect class="hl l54_5" x="600" y="66" width="12" height="12"/>
+<rect class="hl l55_5" x="675" y="81" width="12" height="12"/>
+<rect class="hl l57" x="675" y="96" width="12" height="12"/>
+<rect class="hl l58" x="675" y="111" width="12" height="12"/>
+<rect class="hl l59" x="675" y="126" width="12" height="12"/>
+<rect class="hl l60" x="675" y="141" width="12" height="12"/>
+<rect class="hl l61_5" x="690" y="141" width="12" height="12"/>
+<rect class="hl l62_5" x="690" y="126" width="12" height="12"/>
+<rect class="hl l63_5" x="690" y="96" width="12" height="12"/>
+<rect class="hl l65" x="690" y="81" width="12" height="12"/>
+<rect class="hl l66" x="705" y="81" width="12" height="12"/>
+<rect class="hl l67" x="705" y="111" width="12" height="12"/>
+<rect class="hl l68" x="705" y="126" width="12" height="12"/>
+<rect class="hl l69_5" x="705" y="141" width="12" height="12"/>
+<rect class="hl l70_5" x="720" y="156" width="12" height="12"/>
+<rect class="hl l71_5" x="720" y="96" width="12" height="12"/>
+<rect class="hl l72_5" x="720" y="66" width="12" height="12"/>
+<rect class="hl l74" x="735" y="141" width="12" height="12"/>
+<rect class="hl l75" x="735" y="156" width="12" height="12"/>
+<rect class="hl l76" x="750" y="141" width="12" height="12"/>
+<rect class="hl l77_5" x="750" y="126" width="12" height="12"/>
+<rect class="hl l78_5" x="750" y="111" width="12" height="12"/>
+<rect class="hl l79_5" x="750" y="96" width="12" height="12"/>
+<rect class="hl l80_5" x="750" y="81" width="12" height="12"/>
+<rect class="hl l82" x="750" y="66" width="12" height="12"/>
+<rect class="hl l83" x="765" y="66" width="12" height="12"/>
+<rect class="hl l84" x="765" y="81" width="12" height="12"/>
+<rect class="hl l85" x="765" y="96" width="12" height="12"/>
+<rect class="hl l86_5" x="765" y="111" width="12" height="12"/>
+<rect class="hl l87_5" x="765" y="126" width="12" height="12"/>
+<rect class="hl l88_5" x="765" y="141" width="12" height="12"/>
+<rect class="hl l90" x="780" y="141" width="12" height="12"/>
+<rect class="hl l91" x="780" y="126" width="12" height="12"/>
+<rect class="hl l92" x="780" y="111" width="12" height="12"/>
+<rect class="hl l93" x="780" y="96" width="12" height="12"/>
+<rect class="hl l94_5" x="780" y="81" width="12" height="12"/>
+<rect class="hl l95_5" x="795" y="81" width="12" height="12"/>
+<rect class="hl l96_5" x="795" y="96" width="12" height="12"/>
+<rect class="hl l97_5" x="795" y="111" width="12" height="12"/>
+<rect class="hl l99" x="795" y="126" width="12" height="12"/>
+<rect class="hl l100" x="795" y="141" width="12" height="12"/>
+</g>
+<g class="char">
+<ellipse class="sh" cx="0" cy="1.5" rx="6" ry="2"/>
+<ellipse class="ink" cx="-3.2" cy="-0.5" rx="2.4" ry="1.7"/>
+<ellipse class="ink" cx="3.2" cy="-0.5" rx="2.4" ry="1.7"/>
+<path class="an" d="M0,-11 L2.5,-17"/>
+<circle class="dot" cx="2.5" cy="-18" r="2"/>
+<circle class="ink" cx="0" cy="-6" r="6"/>
+<circle class="eye" cx="-2.4" cy="-6.5" r="1.7"/>
+<circle class="eye" cx="2.4" cy="-6.5" r="1.7"/>
+</g>
+</svg>
