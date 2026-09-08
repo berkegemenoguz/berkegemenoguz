@@ -1,7 +1,5 @@
 <h1 align="center">Berk Egemen Oğuz</h1>
 
-<br/>
-
 ## 🚀 Currently Working On
 
 - **borsadostu.com** — Stock market analysis web application for students and low-profile investors
