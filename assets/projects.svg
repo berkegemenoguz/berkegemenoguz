@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="72" viewBox="0 0 840 72">
+<style>
+.serif{font-family:Newsreader, Georgia, 'Times New Roman', serif;fill:#ece8e2}
+.sans{font-family:Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#bdb6ad}
+.mono{font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#8b847c}
+.accent{fill:#d98757}
+.dim{fill:#bdb6ad}
+.line{stroke:#2c2a27;stroke-width:1;fill:none}
+.box{fill:#201f1d;stroke:#2c2a27;stroke-width:1}
+</style>
+
+<text x="40" y="44" class="serif" font-size="26">Selected work</text>
+<text x="800" y="44" class="mono" font-size="11" text-anchor="end" letter-spacing="1.5">02</text>
+</svg>

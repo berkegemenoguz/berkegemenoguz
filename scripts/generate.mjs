@@ -67,22 +67,14 @@ const GRID_Y = HEAD + MONTH_H;
 const MONTHS = ['Oca','Şub','Mar','Nis','May','Haz','Tem','Ağu','Eyl','Eki','Kas','Ara'];
 
 const THEMES = {
-  light: {
-    bg:     '#ffffff',
-    text:   '#57606a',
-    levels: ['#ebedf0', '#9be9a8', '#40c463', '#30a14e', '#216e39'],
-    ink:    '#12203a',
-    accent: '#0891b2',   // bastığı blokların rengi
-    eye:    '#4ade80',
-    shadow: 'rgba(15,23,42,.20)',
-  },
+  // berkegemenoguz.com paleti
   dark: {
-    bg:     '#0d1117',
-    text:   '#7d8590',
-    levels: ['#161b22', '#0e4429', '#006d32', '#26a641', '#39d353'],
-    ink:    '#eaf1fc',
-    accent: '#22d3ee',
-    eye:    '#4ade80',
+    bg:     '#191817',
+    text:   '#8b847c',
+    levels: ['#1e1c1a', '#43291a', '#6f4324', '#a4652f', '#d99154'],
+    ink:    '#ece8e2',
+    accent: '#d98757',   // bastığı blokların rengi
+    eye:    '#d98757',
     shadow: 'rgba(0,0,0,.45)',
   },
 };
@@ -92,15 +84,13 @@ const levelOf = c => c === 0 ? 0 : c < 3 ? 1 : c < 6 ? 2 : c < 10 ? 3 : 4;
 /* ────────────────── 3. Izgara + rota ────────────────── */
 
 function buildGrid(cal) {
-  const weeks = cal.weeks;
-  const grid = weeks.map(wk => {
+  return cal.weeks.map(wk => {
     const col = new Array(DAYS).fill(null);
     for (const day of wk.contributionDays) {
       col[day.weekday] = { count: day.contributionCount, date: day.date };
     }
     return col;
   });
-  return grid;
 }
 
 /**
@@ -126,7 +116,7 @@ const cellY = d => GRID_Y + d * STEP;
 const footX = w => cellX(w) + CELL / 2;   // figürün ayak x'i (hücre ortası)
 const footY = d => cellY(d);              // figürün ayak y'si (hücre üst kenarı)
 
-function buildSVG(cal, grid, path, themeName) {
+function buildSVG(grid, path, themeName) {
   const T = THEMES[themeName];
   const WEEKS = grid.length;
   const W = PAD_L + WEEKS * STEP + PAD_R;
@@ -256,8 +246,8 @@ if (path.length < 2) {
   process.exit(1);
 }
 
-for (const theme of ['light', 'dark']) {
-  const svg = buildSVG(cal, grid, path, theme);
+for (const theme of Object.keys(THEMES)) {
+  const svg = buildSVG(grid, path, theme);
   const file = `dist/contrib-${theme}.svg`;
   mkdirSync(dirname(file), { recursive: true });
   writeFileSync(file, svg, 'utf8');

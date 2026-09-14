@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="256" viewBox="0 0 840 256">
+<style>
+.serif{font-family:Newsreader, Georgia, 'Times New Roman', serif;fill:#ece8e2}
+.sans{font-family:Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#bdb6ad}
+.mono{font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#8b847c}
+.accent{fill:#d98757}
+.dim{fill:#bdb6ad}
+.line{stroke:#2c2a27;stroke-width:1;fill:none}
+.box{fill:#201f1d;stroke:#2c2a27;stroke-width:1}
+</style>
+<rect x=".5" y=".5" width="839" height="255" rx="10" fill="#191817" stroke="#2c2a27"/>
+<text x="40" y="58" class="serif" font-size="26">Toolbox</text><text x="800" y="58" class="mono" font-size="11" text-anchor="end" letter-spacing="1.5">03</text>
+<text x="40" y="102" class="mono" font-size="11" letter-spacing="1.5">LANGUAGES</text>
+<rect x="170" y="84" width="42" height="28" rx="14" fill="rgba(217,135,87,.13)" stroke="#d98757"/>
+<text x="191" y="102.5" class="sans accent" font-size="13" text-anchor="middle">Go</text>
+<rect x="220" y="84" width="71" height="28" rx="14" fill="rgba(217,135,87,.13)" stroke="#d98757"/>
+<text x="255.5" y="102.5" class="sans accent" font-size="13" text-anchor="middle">Python</text>
+<rect x="299" y="84" width="57" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="327.5" y="102.5" class="sans" font-size="13" text-anchor="middle">Java</text>
+<rect x="364" y="84" width="100" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="414" y="102.5" class="sans" font-size="13" text-anchor="middle">JavaScript</text>
+<rect x="472" y="84" width="50" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="497" y="102.5" class="sans" font-size="13" text-anchor="middle">C++</text>
+<rect x="530" y="84" width="50" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="555" y="102.5" class="sans" font-size="13" text-anchor="middle">SQL</text>
+<text x="40" y="142" class="mono" font-size="11" letter-spacing="1.5">BACKEND</text>
+<rect x="170" y="124" width="78" height="28" rx="14" fill="rgba(217,135,87,.13)" stroke="#d98757"/>
+<text x="209" y="142.5" class="sans accent" font-size="13" text-anchor="middle">Node.js</text>
+<rect x="256" y="124" width="78" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="295" y="142.5" class="sans" font-size="13" text-anchor="middle">Express</text>
+<rect x="342" y="124" width="64" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="374" y="142.5" class="sans" font-size="13" text-anchor="middle">Flask</text>
+<rect x="414" y="124" width="57" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="442.5" y="142.5" class="sans" font-size="13" text-anchor="middle">REST</text>
+<rect x="479" y="124" width="50" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="504" y="142.5" class="sans" font-size="13" text-anchor="middle">JWT</text>
+<text x="40" y="182" class="mono" font-size="11" letter-spacing="1.5">DATA</text>
+<rect x="170" y="164" width="100" height="28" rx="14" fill="rgba(217,135,87,.13)" stroke="#d98757"/>
+<text x="220" y="182.5" class="sans accent" font-size="13" text-anchor="middle">PostgreSQL</text>
+<rect x="278" y="164" width="64" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="310" y="182.5" class="sans" font-size="13" text-anchor="middle">NumPy</text>
+<rect x="350" y="164" width="71" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="385.5" y="182.5" class="sans" font-size="13" text-anchor="middle">OpenCV</text>
+<rect x="429" y="164" width="71" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="464.5" y="182.5" class="sans" font-size="13" text-anchor="middle">Plotly</text>
+<rect x="508" y="164" width="100" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="558" y="182.5" class="sans" font-size="13" text-anchor="middle">Matplotlib</text>
+<text x="40" y="222" class="mono" font-size="11" letter-spacing="1.5">OPS</text>
+<rect x="170" y="204" width="71" height="28" rx="14" fill="rgba(217,135,87,.13)" stroke="#d98757"/>
+<text x="205.5" y="222.5" class="sans accent" font-size="13" text-anchor="middle">Docker</text>
+<rect x="249" y="204" width="100" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="299" y="222.5" class="sans" font-size="13" text-anchor="middle">Prometheus</text>
+<rect x="357" y="204" width="50" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="382" y="222.5" class="sans" font-size="13" text-anchor="middle">Git</text>
+<rect x="415" y="204" width="71" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="450.5" y="222.5" class="sans" font-size="13" text-anchor="middle">Render</text>
+<rect x="494" y="204" width="78" height="28" rx="14" fill="#201f1d" stroke="#2c2a27"/>
+<text x="533" y="222.5" class="sans" font-size="13" text-anchor="middle">Postman</text>
+</svg>

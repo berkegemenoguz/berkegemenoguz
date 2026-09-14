@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="230" viewBox="0 0 840 230">
+<style>
+.serif{font-family:Newsreader, Georgia, 'Times New Roman', serif;fill:#ece8e2}
+.sans{font-family:Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif;fill:#bdb6ad}
+.mono{font-family:'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;fill:#8b847c}
+.accent{fill:#d98757}
+.dim{fill:#bdb6ad}
+.line{stroke:#2c2a27;stroke-width:1;fill:none}
+.box{fill:#201f1d;stroke:#2c2a27;stroke-width:1}
+</style>
+<rect x=".5" y=".5" width="839" height="229" rx="10" fill="#191817" stroke="#2c2a27"/>
+<text x="40" y="58" class="serif" font-size="26">What I work on</text><text x="800" y="58" class="mono" font-size="11" text-anchor="end" letter-spacing="1.5">01</text>
+<text x="40" y="100" class="mono accent" font-size="11" letter-spacing="1.5">BACKEND</text>
+<text x="40" y="128" class="serif" font-size="19">Services &amp; APIs</text>
+<text x="40" y="156" class="sans" font-size="13">REST APIs · Go, Node.js, Flask</text>
+<text x="40" y="178" class="sans" font-size="13">Auth, RBAC &amp; JWT sessions</text>
+<text x="40" y="200" class="sans" font-size="13">Reverse proxy · load balancing</text>
+<line class="line" x1="280" x2="280" y1="90" y2="204"/>
+<text x="300" y="100" class="mono accent" font-size="11" letter-spacing="1.5">DATA</text>
+<text x="300" y="128" class="serif" font-size="19">Analysis &amp; tooling</text>
+<text x="300" y="156" class="sans" font-size="13">Python · NumPy · Plotly</text>
+<text x="300" y="178" class="sans" font-size="13">Market data &amp; indicators</text>
+<text x="300" y="200" class="sans" font-size="13">Image pipelines with OpenCV</text>
+<line class="line" x1="540" x2="540" y1="90" y2="204"/>
+<text x="560" y="100" class="mono accent" font-size="11" letter-spacing="1.5">INFRASTRUCTURE</text>
+<text x="560" y="128" class="serif" font-size="19">Storage &amp; operations</text>
+<text x="560" y="156" class="sans" font-size="13">PostgreSQL schema design</text>
+<text x="560" y="178" class="sans" font-size="13">Docker &amp; Prometheus metrics</text>
+<text x="560" y="200" class="sans" font-size="13">Route optimisation · TSP</text>
+</svg>
