@@ -70,6 +70,7 @@ const THEMES = {
   // berkegemenoguz.com paleti
   dark: {
     bg:     '#191817',
+    line:   '#2c2a27',   // README kartlarıyla aynı çerçeve
     text:   '#8b847c',
     levels: ['#1e1c1a', '#43291a', '#6f4324', '#a4652f', '#d99154'],
     ink:    '#ece8e2',
@@ -178,7 +179,7 @@ function buildSVG(grid, path, themeName) {
   styles.push(`@media (prefers-reduced-motion:reduce){.char{animation:none}[class^="l"]{animation:none;opacity:1}}`);
 
   out.push(`<style>${styles.join('')}</style>`);
-  out.push(`<rect class="bg" width="${W}" height="${H}"/>`);
+  out.push(`<rect class="bg" x=".5" y=".5" width="${W - 1}" height="${H - 1}" rx="10" stroke="${T.line}"/>`);
 
   /* ---- ay etiketleri ---- */
   let lastMonth = -1;

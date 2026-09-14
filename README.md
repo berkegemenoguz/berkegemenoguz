@@ -15,7 +15,7 @@
 
 <img alt="Experience: Horoz Lojistik, Anadolu Sigorta, Enocta; BSc Computer Engineering at İstanbul Arel University" src="assets/experience.svg" width="100%">
 
-<img alt="Contribution graph, last 12 months" src="https://raw.githubusercontent.com/berkegemenoguz/berkegemenoguz/output/dist/contrib-dark.svg" width="100%">
+<img alt="Contribution graph, last 12 months" src="https://raw.githubusercontent.com/berkegemenoguz/berkegemenoguz/output/dist/contrib-dark.svg?v=2" width="100%">
 
 <p align="center">
   <a href="https://berkegemenoguz.com">berkegemenoguz.com</a> &nbsp;·&nbsp;
