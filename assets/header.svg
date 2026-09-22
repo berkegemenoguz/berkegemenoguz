@@ -13,7 +13,7 @@
 <text x="40" y="112" class="serif" font-size="46">Berk Egemen Oğuz</text>
 <text x="40" y="146" class="serif dim" font-size="21" font-style="italic">Computer Engineering · Backend &amp; Data</text>
 <line x1="40" x2="76" y1="172" y2="172" stroke="#d98757" stroke-width="2"/>
-<text x="40" y="202" class="sans" font-size="14">I build the parts users never see —</text>
+<text x="40" y="202" class="sans" font-size="14">I build to improve myself and improve myself to build —</text>
 <text x="40" y="224" class="sans" font-size="14">load balancers, APIs, databases and data tools.</text>
 <line class="line" x1="470" x2="470" y1="40" y2="220"/>
 <path class="line" d="M524,130 L610,130 C650,130 657,78 697,78 C737,78 744,130 776,130"/>
